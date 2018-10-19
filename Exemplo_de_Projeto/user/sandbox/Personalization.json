@@ -1,0 +1,18 @@
+{
+    "EngineFileDialog": {
+        "favorites": [
+        ],
+        "history": [
+        ]
+    },
+    "FavoritesHelper": {
+        "Asset Browser": null
+    },
+    "LevelEditor": {
+        "Recent Files": [
+            "Assets/levels/example/example.cry",
+            "Assets/levels/Aula_Interface/Aula_Interface.cry",
+            "assets/Levels/Aula_Interface/Aula_Interface.cry"
+        ]
+    }
+}

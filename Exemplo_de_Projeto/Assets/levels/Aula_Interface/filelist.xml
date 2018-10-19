@@ -1,0 +1,6 @@
+<download name="Aula_Interface" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="667845" md5="b0fe8258c80b359faf2e8e7bd7e6cb9d"/>
+ </files>
+</download>
