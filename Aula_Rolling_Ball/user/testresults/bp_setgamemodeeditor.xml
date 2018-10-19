@@ -1,0 +1,62 @@
+<root>
+	<thread name="Main" totalTimeMS="12.335577" startTime="192815758661" stopTime="192815785102" totalBlocks="29"> 
+		<block name="CGameEngine::SetGameMode" totalTimeMS="12.256266" startTime="192815758830" stopTime="192815785101" args=""> 
+			<block name="CAISystem::Reset" totalTimeMS="1.571747" startTime="192815766405" stopTime="192815769774" args=""> 
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.647547" startTime="192815768083" stopTime="192815769471" args="Scripts/AI/Factions.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.629352" startTime="192815768120" stopTime="192815769469" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.274321" startTime="192815768135" stopTime="192815768723" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.177282" startTime="192815768324" stopTime="192815768704" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FReadRaw" totalTimeMS="0.047120" startTime="192815768791" stopTime="192815768892" args=""> 
+						</block>
+						<block name="XMLBinaryReader::Parse" totalTimeMS="0.007931" startTime="192815769304" stopTime="192815769321" args=""> 
+						</block>
+						<block name="CSystem::SynchronousLoadingTick" totalTimeMS="0.000467" startTime="192815769467" stopTime="192815769468" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="CEntity::LoadCharacter" totalTimeMS="0.532313" startTime="192815774154" stopTime="192815775295" args="Objects/Characters/SampleCharacter/firstperson.cdf"> 
+				<block name="CharacterManager::LoadCharacterDefinition" totalTimeMS="0.327506" startTime="192815774197" stopTime="192815774899" args="objects/characters/samplecharacter/firstperson.cdf"> 
+					<block name="CharacterManager::CreateSKELInstance" totalTimeMS="0.181948" startTime="192815774208" stopTime="192815774598" args=""> 
+						<block name="CCharInstance::CCharInstance" totalTimeMS="0.082576" startTime="192815774420" stopTime="192815774597" args=""> 
+						</block>
+					</block>
+					<block name="CharacterManager::LoadModelSKIN" totalTimeMS="0.004665" startTime="192815774620" stopTime="192815774630" args=""> 
+					</block>
+					<block name="CharacterManager::LoadModelSKIN" totalTimeMS="0.000933" startTime="192815774685" stopTime="192815774687" args=""> 
+					</block>
+					<block name="CObjManager::LoadStatObj" totalTimeMS="0.008864" startTime="192815774784" stopTime="192815774803" args="objects/weapons/sampleweapon/motusweapon.cgf"> 
+					</block>
+				</block>
+			</block>
+			<block name="CEntity::LoadCharacter" totalTimeMS="0.186613" startTime="192815775477" stopTime="192815775877" args="Objects/Characters/SampleCharacter/thirdperson.cdf"> 
+				<block name="CharacterManager::LoadCharacterDefinition" totalTimeMS="0.125497" startTime="192815775493" stopTime="192815775762" args="objects/characters/samplecharacter/thirdperson.cdf"> 
+					<block name="CharacterManager::CreateSKELInstance" totalTimeMS="0.060649" startTime="192815775500" stopTime="192815775630" args=""> 
+						<block name="CCharInstance::CCharInstance" totalTimeMS="0.025659" startTime="192815775575" stopTime="192815775630" args=""> 
+						</block>
+					</block>
+					<block name="CharacterManager::LoadModelSKIN" totalTimeMS="0.002799" startTime="192815775639" stopTime="192815775645" args=""> 
+					</block>
+					<block name="CharacterManager::LoadModelSKIN" totalTimeMS="0.000933" startTime="192815775666" stopTime="192815775668" args=""> 
+					</block>
+					<block name="CObjManager::LoadStatObj" totalTimeMS="0.004199" startTime="192815775710" stopTime="192815775719" args="objects/weapons/sampleweapon/motusweapon.cgf"> 
+					</block>
+				</block>
+			</block>
+			<block name="CCryAction::OnEditorSetGameMode" totalTimeMS="0.972720" startTime="192815778974" stopTime="192815781059" args=""> 
+				<block name="CActionGame::OnEditorSetGameMode" totalTimeMS="0.720326" startTime="192815779042" stopTime="192815780586" args=""> 
+					<block name="CFlashUI::Reload" totalTimeMS="0.156288" startTime="192815780095" stopTime="192815780430" args=""> 
+						<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.001400" startTime="192815780368" stopTime="192815780371" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.001400" startTime="192815781047" stopTime="192815781050" args=""> 
+				</block>
+			</block>
+			<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.000467" startTime="192815785079" stopTime="192815785080" args=""> 
+			</block>
+		</block>
+	</thread>
+</root>
