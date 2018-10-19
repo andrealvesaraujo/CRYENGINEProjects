@@ -1,0 +1,2189 @@
+BackupNameAttachment=" Build(42) 06 Apr 17 (16 55 52)"  -- used by backup system
+Log Started at Thu Apr  6 16:55:52 2017
+Built on Feb 24 2017 00:56:22
+Running 64 bit Windows version
+Command Line: "C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\bin\win_x64\Sandbox.exe" -project "C:\Users\Andre\Documents\CRYENGINE Projects\Aula_Sidescroller\Game.cryproject"
+Executable: C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\bin\win_x64\Sandbox.exe
+FileVersion: 5.3.3.42
+ProductVersion: 5.3.3.42
+Added MOD directory <%engineroot%> to CryPak
+Added MOD directory <%engineroot%/engine> to CryPak
+
+Total number of logical processors: 4
+Number of available logical processors: 4
+Total number of system cores: 2
+Number of cores available to process: 2
+ 
+Processor 0:
+  CPU: Intel Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+  Family: 6, Model: 13, Stepping: 4
+  FPU: On-Chip
+  Features: FP16, SSE, SSE2, SSE3, SSE4.2, AVX, AVX2, FMA3
+  Serial number not present or disabled
+ 
+Processor 1:
+  CPU: Intel Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+  Family: 6, Model: 13, Stepping: 4
+  FPU: On-Chip
+  Features: FP16, SSE, SSE2, SSE3, SSE4.2, AVX, AVX2, FMA3
+  Serial number not present or disabled
+ 
+<16:55:52> Loading Config file system.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.3\system.cfg)
+<16:55:52> GameDir: Assets
+<16:55:52> Loading Config file game.cfg (assets\game.cfg)
+<16:55:52> OnSysSpecChange(4)
+<16:55:52> [Warning] Config file VeryHighSpec.cfg not found!
+<16:55:52> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.3\editor.cfg)
+<16:55:52> Loading Config file game.cfg (assets\game.cfg)
+<16:55:53> creating CVarGroups from directory 'assets/Config/CVarGroups' ...
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_full.cfg (assets\config\cvargroups\sys_spec_full.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_gameeffects.cfg (assets\config\cvargroups\sys_spec_gameeffects.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_light.cfg (assets\config\cvargroups\sys_spec_light.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_objectdetail.cfg (assets\config\cvargroups\sys_spec_objectdetail.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_particles.cfg (assets\config\cvargroups\sys_spec_particles.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_physics.cfg (assets\config\cvargroups\sys_spec_physics.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_postprocessing.cfg (assets\config\cvargroups\sys_spec_postprocessing.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_quality.cfg (assets\config\cvargroups\sys_spec_quality.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_shading.cfg (assets\config\cvargroups\sys_spec_shading.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_shadows.cfg (assets\config\cvargroups\sys_spec_shadows.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_sound.cfg (assets\config\cvargroups\sys_spec_sound.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_texture.cfg (assets\config\cvargroups\sys_spec_texture.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_textureresolution.cfg (assets\config\cvargroups\sys_spec_textureresolution.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_volumetriceffects.cfg (assets\config\cvargroups\sys_spec_volumetriceffects.cfg)
+<16:55:53> Loading Config file assets/Config/CVarGroups/sys_spec_water.cfg (assets\config\cvargroups\sys_spec_water.cfg)
+<16:55:53> creating CVarGroups from directory 'Engine/Config/CVarGroups' ...
+<16:55:53> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/engine_core.thread_config".
+<16:55:53> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/engine_sandbox.thread_config".
+<16:55:53> Windows 10 64 bit (build 10.0.14393)
+<16:55:53> User name: "Andre"
+<16:55:53> System language: Portuguese
+<16:55:53> Windows Directory: "C:\WINDOWS"
+<16:55:53> Local time is 16:55:53 04/06/17, system running for 1500 minutes
+<16:55:53> 8104MB physical memory installed, 5194MB available, 134217727MB virtual memory installed, 35 percent of memory in use
+<16:55:53> PageFile usage: 44MB, Working Set: 48MB, Peak PageFile usage: 44MB,
+<16:55:53> Current display mode is 1366x768x32, (Unknown graphics card)
+<16:55:53> Japanese keyboard and 5+ button mouse installed
+<16:55:53> --------------------------------------------------------------------------------
+<16:55:53> [Warning] Config file %USER%/game.cfg not found!
+<16:55:53> Loading Config file system.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.3\system.cfg)
+<16:55:53> [Warning] Config file user.cfg not found!
+<16:55:53> Stream Engine Initialization
+<16:55:53> GameName: Sidescroller Game Template
+<16:55:53> BuildTime: Feb 24 2017 00:56:22
+<16:55:53> Physics initialization
+<16:55:53> Initializing CryPhysics...
+<16:55:53> Initializing CryPhysics done, MemUsage=856Kb
+<16:55:53> [Warning] Cannot open Pak file assets\localization\english_xml.pak
+<16:55:53> Localized language content(english) not available or modified from the original installation.
+<16:55:53> [Warning] Cannot open Pak file assets\localization\english.pak
+<16:55:53> Localized language content(english) not available or modified from the original installation.
+<16:55:53> [Warning] Cannot open Pak file assets\localization\english.pak
+<16:55:53> Localized language content(english) not available or modified from the original installation.
+<16:55:53> [Error] <Localization> No localization files found!
+<16:55:53> <Audio>: AudioSystem initialization
+<16:55:53> Initializing CryAudioSystem...
+<16:55:53> Initializing CryAudioImplSDLMixer...
+<16:55:53> <Audio> <0.962>: CryAudioImplSDLMixer loaded
+<16:55:53> Initializing CryAudioImplSDLMixer done, MemUsage=5304Kb
+<16:55:53> Initializing CryAudioSystem done, MemUsage=5968Kb
+<16:55:53> Renderer initialization
+<16:55:53> Initializing CryRenderD3D11...
+<16:55:53> CRenderer sizeof(Vec2f16)=4 sizeof(Vec3f16)=8
+<16:55:53> Initializing CryRenderD3D11 done, MemUsage=4112Kb
+<16:55:53> Initializing Direct3D and creating game window:
+<16:55:53> D3DX_SDK_VERSION = <UNDEFINED>
+<16:55:53> Direct3D driver is creating...
+<16:55:53> Crytek Direct3D driver version 2.00 (Feb 24 2017 <00:56:10>)
+<16:55:53> Creating window called 'Sidescroller Game Template' (1280x720)
+<16:55:53> D3D Adapter: Description: Intel(R) HD Graphics 5500
+<16:55:53> D3D Adapter: Driver version (UMD): 20.19.15.4549
+<16:55:53> D3D Adapter: VendorId = 0x8086
+<16:55:53> D3D Adapter: DeviceId = 0x1616
+<16:55:53> D3D Adapter: SubSysId = 0xC755144D
+<16:55:53> D3D Adapter: Revision = 9
+<16:55:53> Active GPUs: 1
+<16:55:53> Using pixel texture formats:
+<16:55:53>   R8G8B8A8S, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R8G8B8A8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
+<16:55:53>   A8, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R8, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R8S, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R16, mips (autogen), blend, RT (multi-sampled), gather (comparable)
+<16:55:53>   R16F, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R32F, mips (autogen), blend, RT (multi-sampled), gather (comparable)
+<16:55:53>   R8G8, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R8G8S, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R16G16, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R16G16S, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R16G16F, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R11G11B10F, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R10G10B10A2, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R16G16B16A16, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R16G16B16A16S, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R16G16B16A16F, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   R32G32B32A32F, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   BC1, mips, sRGB, gather
+<16:55:53>   BC2, mips, sRGB, gather
+<16:55:53>   BC3, mips, sRGB, gather
+<16:55:53>   BC4, mips, gather
+<16:55:53>   BC4S, mips, gather
+<16:55:53>   BC5, mips, gather
+<16:55:53>   BC5S, mips, gather
+<16:55:53>   BC6UH, mips, gather
+<16:55:53>   BC6SH, mips, gather
+<16:55:53>   BC7, mips, sRGB, gather
+<16:55:53>   R9G9B9E5, mips, gather
+<16:55:53>   R32FX8T, mips
+<16:55:53>   R32T, mips
+<16:55:53>   R24G8T, mips
+<16:55:53>   R16T, mips
+<16:55:53>   B5G6R5, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   B5G5R5, mips (autogen), blend, RT (multi-sampled), gather
+<16:55:53>   B8G8R8A8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
+<16:55:53>   B8G8R8X8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
+<16:55:53>  Renderer HDR_Scalar: R32F
+<16:55:53>  ****** D3D11 CryRender Stats ******
+<16:55:53>  Driver description: Intel(R) HD Graphics 5500
+<16:55:53>  Feature level: DirectX 11.0
+<16:55:53>  Full stats: 
+<16:55:53>  Rasterizer: Hardware
+<16:55:53>  Current Resolution: 1280x720x32 Windowed
+<16:55:53>  HDR Rendering: FP16
+<16:55:53>  Occlusion queries: Supported
+<16:55:53>  Geometry instancing: Supported
+<16:55:53>  NormalMaps compression : Supported
+<16:55:53>  Gamma control: Hardware
+<16:55:53>  Vertex Shaders version 4.0
+<16:55:53>  Pixel Shaders version 4.0
+<16:55:53>  Used GeomInstancingThreshold is 7
+<16:55:53>  Shader model usage: 'SM.5.0'
+<16:55:53>  *****************************************
+<16:55:53>  
+<16:55:53> Init Shaders
+<16:55:53> Flushing pended shaders...
+<16:55:53> Finished flushing pended shaders...
+<16:55:53> Flushing pended shaders...
+<16:55:53> Finished flushing pended shaders...
+<16:55:53>  General shader quality: Medium
+<16:55:53>  Metal shader quality: Medium
+<16:55:53>  Glass shader quality: Medium
+<16:55:53>  Vegetation shader quality: Medium
+<16:55:53>  Ice shader quality: Medium
+<16:55:53>  Terrain shader quality: Medium
+<16:55:53>  Shadow shader quality: Medium
+<16:55:53>  Water shader quality: Medium
+<16:55:53>  FX shader quality: Medium
+<16:55:53>  PostProcess shader quality: Medium
+<16:55:53>  HDR shader quality: Medium
+<16:55:53>  Sky shader quality: Medium
+<16:55:53> Render quality: VeryHigh
+<16:55:53> Allocate render buffer for particles (16384 verts, 49152 tris)...
+<16:55:53> Init textures management (128 Mb of video memory is available)...
+<16:55:53>   Enabling of textures streaming...
+<16:55:53>   Using 512 Mb of textures pool for streaming...
+<16:55:53>   Video textures: Atlas clouds max size: 24 Mb
+<16:55:53>   Video textures: Atlas sprites max size: 32 Mb
+<16:55:53>   Video textures: Dynamic managed max size: 48 Mb
+<16:55:53>   Reloading all textures...
+<16:55:53>   Finished reloading textures...
+<16:55:53>   Finished initializing textures streaming...
+<16:55:54> CParserBin::Preprocess: tokenBuffer has been exceeded (buffer=88000, count=92654). Adjust buffer size to remove unnecessary allocs.
+<16:55:54> CParserBin::Preprocess: tokenBuffer has been exceeded (buffer=88000, count=92654). Adjust buffer size to remove unnecessary allocs.
+<16:55:56> Initialized hardware mouse (game is allowed to confine mouse to window)
+<16:55:56> CryMonoBridge initialization
+<16:55:56> Initializing CryMonoBridge...
+<16:55:56> [Mono] Initialize Mono Runtime . . . 
+<16:55:56> [Mono] Initialization done.
+<16:55:56> Initializing CryMonoBridge done, MemUsage=5104Kb
+<16:55:56> Loading plugin CryDefaultEntities
+<16:55:56> Initializing CryDefaultEntities...
+<16:55:56> Initializing CryDefaultEntities done, MemUsage=264Kb
+<16:55:56> Loading plugin CrySchematycCore
+<16:55:56> Initializing CrySchematycCore...
+<16:55:56> Initializing CrySchematycCore done, MemUsage=436Kb
+<16:55:56> Loading plugin CrySchematycSTDEnv
+<16:55:56> Initializing CrySchematycSTDEnv...
+<16:55:56> Initializing CrySchematycSTDEnv done, MemUsage=360Kb
+<16:55:56> Loading plugin CrySensorSystem
+<16:55:56> Initializing CrySensorSystem...
+<16:55:56> Initializing CrySensorSystem done, MemUsage=244Kb
+<16:55:56> Loading extension file cryplugin.csv
+<16:55:56> Loading plugin bin/win_x64/Game.dll
+<16:55:56> Initializing bin/win_x64/Game.dll...
+<16:55:56> Initializing bin/win_x64/Game.dll done, MemUsage=236Kb
+<16:55:56> Initializing CryScaleformHelper...
+<16:55:56> Initializing CryScaleformHelper done, MemUsage=332Kb
+<16:55:56> Using Scaleform GFx 3.3.94
+<16:55:56>   Using dynamic pool
+<16:55:56> Font initialization
+<16:55:56> Initializing CryFont...
+<16:55:56> Using FreeType 2.5.5
+<16:55:56> Initializing CryFont done, MemUsage=224Kb
+<16:55:57> *** Init system render resources ***
+<16:55:57> Allocate render buffer for particles (16384 verts, 49152 tris)...
+<16:55:57> Network initialization
+<16:55:57> Initializing CryNetwork...
+<16:55:57> [LagProfiles] Could not load "". 6 default profiles activated.
+<16:55:57> [Error] Scheduler policy name should not exceed 4 characters.
+<16:55:57> [net] Socket IO management: External [iocp], Internal [iocp]
+<16:55:57> network hostname: note-andre
+<16:55:57>   ip:192.168.56.1
+<16:55:57>   ip:192.168.0.9
+<16:55:57> [Network Version]: PROFILE DEVELOPMENT BUILD
+<16:55:57> Initializing CryNetwork done, MemUsage=2156Kb
+<16:55:57> Online initialization
+<16:55:57> Initializing CryOnline...
+<16:55:57> DLL Failed to load, error code: 7E
+<16:55:57> MovieSystem initialization
+<16:55:57> Initializing CryMovie...
+<16:55:57> Initializing CryMovie done, MemUsage=524Kb
+<16:55:57> Console initialization
+<16:55:57> Time initialization
+<16:55:57> Input initialization
+<16:55:57> Initializing CryInput...
+<16:55:57> Initializing DirectInput
+<16:55:57> Initializing Keyboard
+<16:55:57> Input locale changed to 00000416
+<16:55:57> Initializing mouse
+<16:55:57> Initializing CryInput done, MemUsage=1248Kb
+<16:55:57> AI initialization
+<16:55:57> Initializing CryAISystem...
+<16:55:57> Initializing CryAISystem done, MemUsage=1216Kb
+<16:55:57>  
+<16:55:57> con_debug=0 [  ]
+<16:55:57> con_display_last_messages=0 [  ]
+<16:55:57> con_line_buffer_size=1000 [  ]
+<16:55:57> con_restricted=0 [ RESTRICTEDMODE ]
+<16:55:57> con_showonload=0 [  ]
+<16:55:57>  
+<16:55:57> con_debug=0 [  ]
+<16:55:57> con_display_last_messages=0 [  ]
+<16:55:57> con_line_buffer_size=1000 [  ]
+<16:55:57> con_restricted=0 [ RESTRICTEDMODE ]
+<16:55:57> con_showonload=0 [  ]
+<16:55:57>  
+<16:55:57> con_debug=0 [  ]
+<16:55:57>  
+<16:55:57> con_debug=0 [  ]
+<16:55:57> Initializing Animation System
+<16:55:57> Initializing CryAnimation...
+<16:55:57> Initializing CryAnimation done, MemUsage=1976Kb
+<16:55:57> Initializing 3D Engine
+<16:55:57> Initializing Cry3DEngine...
+<16:55:57> Sky light: Optical lookup tables loaded off disc.
+<16:55:57> Initializing Cry3DEngine done, MemUsage=2552Kb
+<16:55:57> Script System Initialization
+<16:55:57> Initializing CryScriptSystem...
+<16:55:57> [Warning] [Lua Error] Failed to load script file scripts/common.lua
+<16:55:57> Initializing CryScriptSystem done, MemUsage=584Kb
+<16:55:57> Entity system initialization
+<16:55:57> Initializing CryEntitySystem...
+<16:55:57> Initializing CryEntitySystem done, MemUsage=1616Kb
+<16:55:57> LiveCreate initialization
+<16:55:57> LiveCreateHost not created, using NULL implementation.
+<16:55:57> Initializing AI System
+<16:55:57> AI: [AISYSTEM] Initialization started.
+<16:55:57> [Warning] XML reader: Can't open file (Scripts/AI/Communication/CommunicationSystemConfiguration.xml)
+<16:55:57> [Warning] AI: Failed to open XML file 'Scripts/AI/Communication/CommunicationSystemConfiguration.xml'...
+<16:55:57> [Warning] [Lua Error] Failed to load script file scripts/ai/aiconfig.lua
+<16:55:57> [Warning] XML reader: Can't open file (Scripts/AI/lookup.xml)
+<16:55:57> Registering CentralInterestManager with EntitySystem
+<16:55:57> [Warning] XML reader: Can't open file (Libs/AITargetStimulusConfig.xml)
+<16:55:57> [Warning] AI: CTargetTrackManager::Init() Warning: Failed to load configuration file 'Libs/AITargetStimulusConfig.xml'
+<16:55:57> AI: [AISYSTEM] Initialization finished.
+<16:55:57> [Warning] XML reader: Can't open file (Scripts/AI/Cover.xml)
+<16:55:57> [Warning] AI: Failed to open XML file 'Scripts/AI/Cover.xml'...
+<16:55:57> [Warning] XML reader: Can't open file (Scripts/AI/Navigation.xml)
+<16:55:57> [Warning] AI: Failed to open XML file 'Scripts/AI/Navigation.xml'...
+<16:55:57> Initializing additional systems
+<16:55:57> Dynamic Response System initialization
+<16:55:57> Initializing CryDynamicResponseSystem...
+<16:55:57> Initializing CryDynamicResponseSystem done, MemUsage=516Kb
+<16:55:57> OnSysSpecChange(4)
+<16:55:57> Loading Config file VeryHighSpec.cfg (assets\config\veryhighspec.cfg)
+<16:55:57> Flushing pended shaders...
+<16:55:57> Finished flushing pended shaders...
+<16:55:58> CParserBin::Preprocess: tokenBuffer has been exceeded (buffer=88000, count=92654). Adjust buffer size to remove unnecessary allocs.
+<16:55:58> Flushing pended shaders...
+<16:55:58> Finished flushing pended shaders...
+<16:55:58> Allocating shadow map cache 4214 x 4214: 33.87 MB
+<16:55:58> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.3\editor.cfg)
+<16:55:58> Loading Config file game.cfg (assets\game.cfg)
+<16:55:58> Flushing pended textures...
+<16:55:58> Finished flushing pended textures...
+<16:55:58> [Warning] XML reader: Can't open file (Libs/Levels/leveltypes.xml)
+<16:55:58> [Warning] XML reader: Can't open file (Libs/FlowNodes/DialogFlowNodeBuffers.xml)
+<16:55:58> [Warning] [Lua Error] Failed to load script file Scripts/Entities/Vehicles/VehicleSystem.lua
+<16:55:58> [Warning] XML reader: Can't open file (Libs/Readability/Faces/Faces.xml)
+<16:55:58> [Warning] XML reader: Can't open file (Scripts/Network/StatsConfig.xml)
+<16:55:58> Ending game context...
+<16:55:58> [Warning] [Lua Error] Failed to load script file Scripts/Entities/Vehicles/VehiclePartDetached.lua
+<16:55:58> [Warning] [Lua Error] Failed to load script file Scripts/Entities/Environment/WaterVolume.lua
+<16:55:58> [Warning] XML reader: Can't open file (Libs/GameForceFeedback/ForceFeedbackEffects.xml)
+<16:55:58> [Warning] [ForceFeedback System] Could not load force feedback system data. Invalid XML file 'Libs/GameForceFeedback/ForceFeedbackEffects.xml'! 
+<16:55:58> Initializing default materials...
+<16:55:59> [Warning] XML reader: Can't open file (materials/material_layers_default.mtl)
+<16:55:59> [Warning] [Lua Error] Failed to load script file scripts/main.lua
+<16:55:59> [Warning] [CScriptSystem::BeginCall] Function OnInit not found(check for syntax errors or if the file wasn't loaded)
+<16:55:59> [Warning] Class 'SinglePlayer' has already a profile assigned
+<16:55:59> [MFX] Loading FXLib 'collision' ...
+<16:55:59> UnitTesting Finished Tests: 71 Succeeded: 71, Failed: 0, Time: 168.39 ms
+<16:55:59> [Schematyc]: Loading...
+<16:55:59> [Schematyc]: Loading settings
+<16:55:59> [Warning] XML reader: Can't open file (libs/schematyc/settings/log_settings.sc_settings)
+<16:55:59> [Schematyc]: Loading scripts
+<16:55:59> [Schematyc]: Compiling scripts
+<16:55:59> [Schematyc]: Loading complete
+<16:55:59> [CONSOLE] Executing console command 'exec autoexec.cfg'
+<16:55:59> Executing console batch file (try game,config,root): "autoexec.cfg" not found!
+<16:55:59> Current Language: Portuguese 
+<16:55:59> Windows 10 10.0 (C:\WINDOWS)
+<16:55:59> Local time is 16:55:59 04/06/17, system running for 1500 minutes
+<16:55:59> 8104MB phys. memory installed, 5049MB paging available
+<16:55:59> Current display mode is 1366x768x32, (Unknown graphics card)
+<16:55:59> Japanese keyboard and 5+ button mouse installed
+<16:55:59> --------------------------------------------------------------------------------
+<16:55:59> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
+<16:56:00> [Warning] [Lua Error] Failed to load script file scripts/ai/pathfindProperties.lua
+<16:56:00> AI: [AISYSTEM] Initializing AI Actions.
+<16:56:00> AI: [AISYSTEM] Initializing Smart Objects.
+<16:56:00> [Warning] XML reader: Can't open file (Libs/SmartObjects.xml)
+<16:56:00> [Warning] XML reader: Can't open file (Libs/SmartObjects/Templates/SOTemplates.xml)
+<16:56:00> Unloading all previous plugins
+<16:56:00> Loading plugins...
+<16:56:00> Successfully loaded plugin '3DConnexionDriver', version '1' (GUID: {AD109901-9128-4ffd-8E67-137CB2B1C41B})
+<16:56:00> Successfully loaded plugin 'CryDesigner', version '1' (GUID: )
+<16:56:00> Successfully loaded plugin 'EditorPhysics', version '1' (GUID: (null))
+<16:56:00> Successfully loaded plugin 'AudioControlsEditor', version '1' (GUID: {DFA4AFF7-2C70-4B29-B736-GRH00040314})
+<16:56:00> Successfully loaded plugin 'QtConsole', version '1' (GUID: {B0E9DE33-C2E3-4506-8B63-B023327156BB})
+<16:56:00> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\bin\win_x64/EditorPlugins\EditorCryAudioImplFmod.dll' factory pointer (is it a Sandbox plugin?)
+<16:56:00> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\bin\win_x64/EditorPlugins\EditorCryAudioImplSDLMixer.dll' factory pointer (is it a Sandbox plugin?)
+<16:56:00> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\bin\win_x64/EditorPlugins\EditorCryAudioImplWwise.dll' factory pointer (is it a Sandbox plugin?)
+<16:56:00> Successfully loaded plugin 'DynamicResponseSystemEditor', version '1' (GUID: {DFA4AFF7-2C70-4B29-B736-GRH00290515})
+<16:56:00> Successfully loaded plugin 'EditorEnvironment', version '1' (GUID: {800BBFA9-9895-4E81-AB02-7425FD4F5554})
+<16:56:00> Successfully loaded plugin 'EditorGameSDK', version '1' (GUID: )
+<16:56:00> Successfully loaded plugin 'ParticleLibrary', version '1' (GUID: (null))
+<16:56:00> [SchematycEditor]: Initializing...
+<16:56:00> [SchematycEditor]: Fixing up script files
+<16:56:00> [SchematycEditor]: Compiling script files
+<16:56:00> [SchematycEditor]: Initialization complete
+<16:56:00> Successfully loaded plugin 'Schematyc Plug-in', version '1' (GUID: {91A8A207-F8F0-4D5B-B8CA-613B4920581F})
+<16:56:00> Successfully loaded plugin 'TrackView', version '1' (GUID: {7C4EB160-30AC-44C1-92D6-6D4B74B2E96B})
+<16:56:00> Successfully loaded plugin 'UQS Editor', version '1' (GUID: {691839E0-5756-46D5-8311-5D49A953EFA9})
+<16:56:00> Successfully loaded plugin 'UQS Query History Inspector', version '1' (GUID: {37D8BA31-2926-4F48-9C39-AF3E8B04B52B})
+<16:56:00> FBX plugin: CreatePluginInstance
+<16:56:00> Successfully loaded plugin 'FBX Exporter', version '1' (GUID: {6CD02F95-362C-4ADF-8BAE-87C6342A8027})
+<16:56:00> Successfully loaded plugin 'MeshImporter', version '1' (GUID: {4F68F679-39AD-4BB4-B5E2-8A8DD3020DC1})
+<16:56:00> Successfully loaded plugin 'Sandbox Python Bridge', version '0' (GUID: {33C4B150-679F-49A2-81C1-0C594AE37A86})
+<16:56:00> Started game resource files indexing...
+<16:56:00> [CONSOLE] Executing console command 'exec editor.cfg'
+<16:56:00> Executing console batch file (try game,config,root): "editor.cfg" found in %ENGINEROOT%/editor.cfg ...
+<16:56:00> ca_UseIMG_CAF=0 [  ]
+<16:56:00> drs_dialogSubtitles=1 [  ]
+<16:56:00> general.run_file 'C:/Program Files (x86)/Crytek/CRYENGINE Launcher/Crytek/CRYENGINE_5.3/Editor/Python/plugins/crytools/startup.py'
+<16:56:00> checking C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\Tools\sandbox\init.py
+<16:56:00> 
+<16:56:00> Loading crytools from C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\Tools\sandbox
+<16:56:00> 
+<16:56:00> sandbox_tools_pathC:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\Tools\sandbox
+<16:56:00> 
+<16:56:00> added C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\Tools\python\lib\common
+<16:56:00> 
+<16:56:00> C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\Tools\python\packages
+<16:56:00> 
+<16:56:00> added C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\Tools\sandbox\lib\common
+<16:56:00> 
+<16:56:00> added C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\Tools\sandbox\tools
+<16:56:00> 
+<16:56:00> Registered override path : C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\Tools\sandbox\lib\override\common
+<16:56:00> 
+<16:56:02> Returned: 
+<16:56:02> Adding for file change notifications: 'assets\'
+<16:56:02> Adding for file change notifications: 'assets\animations\mannequin'
+<16:56:02> Adding for file change notifications: './assets/'
+<16:56:03> CAIManager: navigation world monitor state: Stopped -> Started
+<16:56:03> Flushing pended shaders...
+<16:56:03> Finished flushing pended shaders...
+<16:56:03> Flushing pended shaders...
+<16:56:03> Finished flushing pended shaders...
+<16:56:03> Flushing pended shaders...
+<16:56:03> Finished flushing pended shaders...
+<16:56:03> Flushing pended shaders...
+<16:56:03> Finished flushing pended shaders...
+<16:56:03> Remote console listening on: 4600
+<16:56:03> Compressing Animation 1/53: animations/motusanims/turns/walkturn_rgt_3p.caf
+<16:56:03> Compressing Animation 2/53: animations/motusanims/turns/walkturn_lft_3p.caf
+<16:56:03> Task Completed: Compression of 'animations/motusanims/turns/walkturn_rgt_3p.caf'
+<16:56:04> Compressing Animation 3/53: animations/motusanims/turns/runturn_rgt_3p.caf
+<16:56:04> Task Completed: Compression of 'animations/motusanims/turns/walkturn_lft_3p.caf'
+<16:56:04> Task Completed: Compression of 'animations/motusanims/turns/runturn_rgt_3p.caf'
+<16:56:04> Compressing Animation 4/53: animations/motusanims/turns/runturn_lft_3p.caf
+<16:56:05> Task Completed: Compression of 'animations/motusanims/turns/runturn_lft_3p.caf'
+<16:56:05> Compressing Animation 5/53: animations/motusanims/turns/jogturn_rgt_3p.caf
+<16:56:05> Task Completed: Compression of 'animations/motusanims/turns/jogturn_rgt_3p.caf'
+<16:56:05> Compressing Animation 6/53: animations/motusanims/turns/jogturn_lft_3p.caf
+<16:56:06> Task Completed: Compression of 'animations/motusanims/turns/jogturn_lft_3p.caf'
+<16:56:06> Compressing Animation 7/53: animations/motusanims/strafe/walkstrafe_rgt_3p.caf
+<16:56:06> Task Completed: Compression of 'animations/motusanims/strafe/walkstrafe_rgt_3p.caf'
+<16:56:06> Compressing Animation 8/53: animations/motusanims/strafe/walkstrafe_lft_3p.caf
+<16:56:07> Task Completed: Compression of 'animations/motusanims/strafe/walkstrafe_lft_3p.caf'
+<16:56:07> Compressing Animation 9/53: animations/motusanims/strafe/walkcross_fwd_rgt_3p.caf
+<16:56:07> Task Completed: Compression of 'animations/motusanims/strafe/walkcross_fwd_rgt_3p.caf'
+<16:56:07> Compressing Animation 10/53: animations/motusanims/strafe/walkcross_fwd_lft_3p.caf
+<16:56:07> general.new
+<16:56:07> Compressing Animation 11/53: animations/motusanims/strafe/walkcross_bck_rgt_3p.caf
+<16:56:07> Task Completed: Compression of 'animations/motusanims/strafe/walkcross_fwd_lft_3p.caf'
+<16:56:08> Compressing Animation 12/53: animations/motusanims/strafe/walkcross_bck_lft_3p.caf
+<16:56:08> Task Completed: Compression of 'animations/motusanims/strafe/walkcross_bck_rgt_3p.caf'
+<16:56:08> Task Completed: Compression of 'animations/motusanims/strafe/walkcross_bck_lft_3p.caf'
+<16:56:08> Compressing Animation 13/53: animations/motusanims/strafe/runstrafe_rgt_3p.caf
+<16:56:09> Compressing Animation 14/53: animations/motusanims/strafe/runstrafe_lft_3p.caf
+<16:56:09> Compressing Animation 15/53: animations/motusanims/strafe/runcross_fwd_rgt_3p.caf
+<16:56:09> Compressing Animation 16/53: animations/motusanims/strafe/runcross_fwd_lft_3p.caf
+<16:56:09> Compressing Animation 17/53: animations/motusanims/strafe/jogstrafe_rgt_3p.caf
+<16:56:10> Compressing Animation 18/53: animations/motusanims/strafe/jogstrafe_lft_3p.caf
+<16:56:10> Compressing Animation 19/53: animations/motusanims/strafe/jogcross_fwd_rgt_3p.caf
+<16:56:10> Compressing Animation 20/53: animations/motusanims/strafe/jogcross_fwd_lft_3p.caf
+<16:56:11> Compressing Animation 21/53: animations/motusanims/strafe/jogcross_bck_rgt_3p.caf
+<16:56:11> Compressing Animation 22/53: animations/motusanims/strafe/jogcross_bck_lft_3p.caf
+<16:56:11> Compressing Animation 23/53: animations/motusanims/steprotate/steprotate_rgt_90_3p.caf
+<16:56:11> Compressing Animation 24/53: animations/motusanims/steprotate/steprotate_rgt_45_3p.caf
+<16:56:12> Compressing Animation 25/53: animations/motusanims/steprotate/steprotate_rgt_180_3p.caf
+<16:56:12> Compressing Animation 26/53: animations/motusanims/steprotate/steprotate_rgt_135_3p.caf
+<16:56:12> Compressing Animation 27/53: animations/motusanims/steprotate/steprotate_lft_90_3p.caf
+<16:56:12> Compressing Animation 28/53: animations/motusanims/steprotate/steprotate_lft_45_3p.caf
+<16:56:13> Compressing Animation 29/53: animations/motusanims/steprotate/steprotate_lft_180_3p.caf
+<16:56:13> Compressing Animation 30/53: animations/motusanims/steprotate/steprotate_lft_135_3p.caf
+<16:56:13> Compressing Animation 31/53: animations/motusanims/rifleanims/walkstraferifleaim_rgt_3p.caf
+<16:56:13> Compressing Animation 32/53: animations/motusanims/rifleanims/walkstraferifleaim_lft_3p.caf
+<16:56:14> Compressing Animation 33/53: animations/motusanims/rifleanims/walkcrossrifleaim_fwd_rgt_3p.caf
+<16:56:14> Compressing Animation 34/53: animations/motusanims/rifleanims/walkcrossrifleaim_fwd_lft_3p.caf
+<16:56:14> Compressing Animation 35/53: animations/motusanims/rifleanims/walkcrossrifleaim_bck_rgt_3p.caf
+<16:56:15> Compressing Animation 36/53: animations/motusanims/rifleanims/walkcrossrifleaim_bck_lft_3p.caf
+<16:56:15> Compressing Animation 37/53: animations/motusanims/rifleanims/steprifleaimrotate_rgt_90_3p.caf
+<16:56:15> Compressing Animation 38/53: animations/motusanims/rifleanims/steprifleaimrotate_lft_90_3p.caf
+<16:56:15> Compressing Animation 39/53: animations/motusanims/rifleanims/riflewalkaim_fwd_3p.caf
+<16:56:16> Compressing Animation 40/53: animations/motusanims/rifleanims/riflewalkaim_bwd_3p.caf
+<16:56:16> Task Completed: Compression of 'animations/motusanims/strafe/runstrafe_rgt_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/strafe/runstrafe_lft_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/strafe/runcross_fwd_rgt_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/strafe/runcross_fwd_lft_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/strafe/jogstrafe_rgt_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/strafe/jogstrafe_lft_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/strafe/jogcross_fwd_rgt_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/strafe/jogcross_fwd_lft_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/strafe/jogcross_bck_rgt_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/strafe/jogcross_bck_lft_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/steprotate/steprotate_rgt_90_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/steprotate/steprotate_rgt_45_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/steprotate/steprotate_rgt_180_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/steprotate/steprotate_rgt_135_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/steprotate/steprotate_lft_90_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/steprotate/steprotate_lft_45_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/steprotate/steprotate_lft_180_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/steprotate/steprotate_lft_135_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/rifleanims/walkstraferifleaim_rgt_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/rifleanims/walkstraferifleaim_lft_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/rifleanims/walkcrossrifleaim_fwd_rgt_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/rifleanims/walkcrossrifleaim_fwd_lft_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/rifleanims/walkcrossrifleaim_bck_rgt_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/rifleanims/walkcrossrifleaim_bck_lft_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/rifleanims/steprifleaimrotate_rgt_90_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/rifleanims/steprifleaimrotate_lft_90_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/rifleanims/riflewalkaim_fwd_3p.caf'
+<16:56:16> Compressing Animation 41/53: animations/motusanims/rifleanims/rifleaim_idle_3p.caf
+<16:56:16> Task Completed: Compression of 'animations/motusanims/rifleanims/riflewalkaim_bwd_3p.caf'
+<16:56:16> Task Completed: Compression of 'animations/motusanims/rifleanims/rifleaim_idle_3p.caf'
+<16:56:16> Compressing Animation 42/53: animations/motusanims/ide2move/walk_to_idle_3p.caf
+<16:56:17> Task Completed: Compression of 'animations/motusanims/ide2move/walk_to_idle_3p.caf'
+<16:56:17> Compressing Animation 43/53: animations/motusanims/ide2move/run_to_idle_3p.caf
+<16:56:17> Task Completed: Compression of 'animations/motusanims/ide2move/run_to_idle_3p.caf'
+<16:56:17> Compressing Animation 44/53: animations/motusanims/ide2move/jog_to_idle_3p.caf
+<16:56:17> Compressing Animation 45/53: animations/motusanims/ide2move/idle_to_walk_3p.caf
+<16:56:17> Task Completed: Compression of 'animations/motusanims/ide2move/jog_to_idle_3p.caf'
+<16:56:18> Task Completed: Compression of 'animations/motusanims/ide2move/idle_to_walk_3p.caf'
+<16:56:18> Compressing Animation 46/53: animations/motusanims/ide2move/idle_to_run_3p.caf
+<16:56:18> Task Completed: Compression of 'animations/motusanims/ide2move/idle_to_run_3p.caf'
+<16:56:18> Compressing Animation 47/53: animations/motusanims/ide2move/idle_to_jog_3p.caf
+<16:56:18> Task Completed: Compression of 'animations/motusanims/ide2move/idle_to_jog_3p.caf'
+<16:56:18> Compressing Animation 48/53: animations/motusanims/walk_fwd_3p.caf
+<16:56:19> Compressing Animation 49/53: animations/motusanims/walk_bck_3p.caf
+<16:56:19> Task Completed: Compression of 'animations/motusanims/walk_fwd_3p.caf'
+<16:56:19> Task Completed: Compression of 'animations/motusanims/walk_bck_3p.caf'
+<16:56:19> Compressing Animation 50/53: animations/motusanims/run_fwd_3p.caf
+<16:56:19> Task Completed: Compression of 'animations/motusanims/run_fwd_3p.caf'
+<16:56:19> Compressing Animation 51/53: animations/motusanims/jog_fwd_3p.caf
+<16:56:20> Compressing Animation 52/53: animations/motusanims/jog_bck_3p.caf
+<16:56:20> Task Completed: Compression of 'animations/motusanims/jog_fwd_3p.caf'
+<16:56:20> Task Completed: Compression of 'animations/motusanims/jog_bck_3p.caf'
+<16:56:20> Task Completed: Update Local Animations
+<16:56:20> Compressing Animation 53/53: animations/motusanims/idle_3p.caf
+<16:56:20> Creating level directory
+<16:56:20> Ending game context...
+<16:56:20> Destroying CActionGame instance 0000022CA4F9CFA0 (level="")
+<16:56:20> SetGlobalState 0->1 'INIT'->'LEVEL_LOAD_PREPARE' 90056.3 seconds
+<16:56:20> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
+<16:56:21> Preparing new document...
+<16:56:21> CRGBLayer::AllocateTiles 2x2 tiles 512 => 1024x1024 texture
+<16:56:21> allocating editor height map (1024x1024)*4
+<16:56:21> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
+<16:56:21> allocating editor height map (1024x1024)*4
+<16:56:21> Flushing pended textures...
+<16:56:21> Finished flushing pended textures...
+<16:56:21> Loading layer texture (engineassets/textures/grey.dds)...
+<16:56:21> SetGlobalState 1->10 'LEVEL_LOAD_PREPARE'->'LEVEL_LOAD_END' 1.1 seconds
+<16:56:21> File access time during level loading: 0.16 seconds
+<16:56:21> SetGlobalState 10->9 'LEVEL_LOAD_END'->'LEVEL_LOAD_TEXTURES' 0.0 seconds
+<16:56:21> -- Presort shaders by states...
+<16:56:21> --- 8 Resources, 0 Resource groups.
+<16:56:21> Requesting textures precache ...
+<16:56:21> -- Precaching textures...
+<16:56:21> Precaching progress: 2
+<16:56:21> Precaching progress: 4
+<16:56:21> Precaching progress: 6
+<16:56:21> Precaching progress: 8
+<16:56:21> Precaching textures done in 0.01 seconds
+<16:56:21> Textures precache done.
+<16:56:21> SetGlobalState 9->13 'LEVEL_LOAD_TEXTURES'->'RUNNING' 0.0 seconds
+<16:56:21> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
+<16:56:21> allocating editor height map (1024x1024)*4
+<16:56:22> Saving to assets/Levels/Aula_Side/Aula_Side.cry...
+<16:56:22> Storing View settings...
+<16:56:22> Storing Fog settings...
+<16:56:22> Storing missions...<16:56:22> Done
+<16:56:22> 0 shader combination loaded for level assets/Levels/Aula_Side
+<16:56:22> Saving pak file assets\levels\aula_side\aula_side.tmp
+<16:56:22> Storing surface types...
+<16:56:22> Storing layer settings...
+<16:56:22> Saving Vegetation Map...
+<16:56:22> Level successfully saved
+<16:56:22> Exporting terrain...
+<16:56:22> Exporting merged meshes sectors...
+<16:56:22> Exporting merged meshes list...
+<16:56:22> Exporting indoors...
+<16:56:22> Exporting LevelData.xml
+<16:56:22> Storing surface types...
+<16:56:22> Storing Collision Classes ...
+<16:56:22> Exporting LevelData.xml done.
+<16:56:22> Regenerating AI data!
+<16:56:22> AI:  Now writing to assets/Levels/Aula_Side/netMission0.bai.
+<16:56:22> AI: [AISYSTEM] Exporting Roads to assets/Levels/Aula_Side\roadnavMission0.bai
+<16:56:22> AI: [AISYSTEM] Finished Exporting data
+<16:56:22> --- AI: Navigation Data Loaded in  0.00 sec
+<16:56:22> Validating SmartObjects
+<16:56:22> AI: CGraph::Validate Starting: Before updating pak
+<16:56:22> AI: [AISYSTEM] Exporting Areas to assets/Levels/Aula_Side/\areasMission0.bai
+<16:56:22> AI: [AISYSTEM] Finished Exporting data
+<16:56:22> Exporting AI Graph done.
+<16:56:22> Exporting Game Data...
+<16:56:22> Exporting Game Data done
+<16:56:22> Export animation sequences...<16:56:22> Done.
+<16:56:22> Exporting Brushes...<16:56:22> Done.
+<16:56:22> 0 shader combination loaded for level assets/Levels/Aula_Side
+<16:56:22> Exporting serialization list
+<16:56:22> Exporting was successful.
+<16:56:22> Loading map 'assets/Levels/Aula_Side' into engine...
+<16:56:22> ===== Loading Particle Effects =====
+<16:56:22> Loading terrain layers for segment 0 ...
+<16:56:22> Loading RGB Layer Tile: TilePos=(0, 0) MemUsage=0.0MB
+<16:56:22> Constructing 1365 terrain nodes (0.5 MB) <16:56:22>  done in 0.00 sec
+<16:56:22> Exporting data to game (assets/Levels/Aula_Side/)...
+<16:56:22> Exporting terrain texture.
+<16:56:22> Generating terrain texture...
+<16:56:22> Generation stats: 5 tiles(base: 256x256) = 0.63 MB
+<16:56:22> * Building AO data took 0 seconds *
+<16:56:22> Update terrain texture file...
+<16:56:22> Terrain Texture Exported in 0 seconds.
+<16:56:22> Exporting terrain...
+<16:56:22> Exporting merged meshes sectors...
+<16:56:22> Exporting merged meshes list...
+<16:56:22> Exporting indoors...<16:56:22>  done in 0.00 sec
+<16:56:22> Exporting LevelData.xml
+<16:56:22> Storing surface types...
+<16:56:22> Storing Collision Classes ...
+<16:56:22> Exporting LevelData.xml done.
+<16:56:22> Regenerating AI data!
+<16:56:22> AI:  Now writing to assets/Levels/Aula_Side/netMission0.bai.
+<16:56:22> AI: [AISYSTEM] Exporting Roads to assets/Levels/Aula_Side\roadnavMission0.bai
+<16:56:22> AI: [AISYSTEM] Finished Exporting data
+<16:56:22> --- AI: Navigation Data Loaded in  0.00 sec
+<16:56:22> Validating SmartObjects
+<16:56:22> AI: CGraph::Validate Starting: Before updating pak
+<16:56:22> AI: [AISYSTEM] Exporting Areas to assets/Levels/Aula_Side/\areasMission0.bai
+<16:56:22> AI: [AISYSTEM] Finished Exporting data
+<16:56:22> Exporting AI Graph done.
+<16:56:22> Exporting Game Data...
+<16:56:22> Exporting Game Data done
+<16:56:22> Export animation sequences...<16:56:22> Done.
+<16:56:22> Exporting Brushes...<16:56:22> Done.
+<16:56:22> 0 shader combination loaded for level assets/Levels/Aula_Side
+<16:56:22> Exporting serialization list
+<16:56:22> Loading map 'assets/Levels/Aula_Side' into engine...
+<16:56:23> ===== Loading Particle Effects =====
+<16:56:23> Exporting was successful.
+<16:56:23> Returned: 
+<16:56:23> Task Completed: Compression of 'animations/motusanims/idle_3p.caf'
+<16:56:23> Task Completed: Clean up compiled animations
+<16:56:23> Task Completed: Reload CHRPARAMS
+<16:56:23> Opening terrain\cover.ctc ...
+<16:56:23>   TerrainLayer 0: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<16:56:23>   TerrainLayer 1: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<16:56:23>   RGB multiplier: 8, Texture indices: 21
+<16:56:58> ui_action.actionSwitch_to_Game
+<16:56:58> general.enter_game_mode
+<16:56:58> Returned: 
+<16:56:58> Returned: 
+<16:56:58> CAIManager: navigation world monitor state: Started -> Stopped
+<16:56:59>   58 animation-assets loaded (total assets: 53)
+<16:56:59> Compile texture from "assets\objects\characters\samplecharacter\mcg_diff.tif", to "c:\users\andre\documents\cryengine projects\aula_sidescroller\user\texturecompiler\assets\objects\characters\samplecharacter/mcg_diff/mcg_diff.dds"
+<16:56:59> Pre-caching render meshes for camera position
+<16:56:59> Updating level streaming priorities for 1 cameras (LevelFrameId = 1)
+<16:56:59> -- 519.526733 488.626190 41.357784
+<16:57:16> general.exit_game_mode
+<16:57:16> Returned: 
+<16:57:16> CAIManager: navigation world monitor state: Stopped -> Started
+<16:57:17> Compile texture from "assets\objects\characters\samplecharacter\mcg_ddna.tif", to "c:\users\andre\documents\cryengine projects\aula_sidescroller\user\texturecompiler\assets\objects\characters\samplecharacter/mcg_ddna/mcg_ddna.dds"
+<16:57:23> Compile texture from "assets\objects\characters\samplecharacter\mcg_spec.tif", to "c:\users\andre\documents\cryengine projects\aula_sidescroller\user\texturecompiler\assets\objects\characters\samplecharacter/mcg_spec/mcg_spec.dds"
+<16:57:30> Terrain Modify: 
+<16:57:30> Terrain Modify: 
+<16:57:38> Terrain Modify: 
+<16:57:46> ui_action.actionSwitch_to_Game
+<16:57:46> general.enter_game_mode
+<16:57:46> Returned: 
+<16:57:46> Returned: 
+<16:57:46> CAIManager: navigation world monitor state: Started -> Stopped
+<16:57:46> Pre-caching render meshes for camera position
+<16:57:46> Updating level streaming priorities for 1 cameras (LevelFrameId = 403)
+<16:57:46> -- 508.251404 496.548370 38.234482
+<16:57:51> general.exit_game_mode
+<16:57:51> Returned: 
+<16:57:51> CAIManager: navigation world monitor state: Stopped -> Started
+<16:57:56> ui_action.actionSwitch_to_Game
+<16:57:56> general.enter_game_mode
+<16:57:56> Returned: 
+<16:57:56> Returned: 
+<16:57:56> CAIManager: navigation world monitor state: Started -> Stopped
+<16:57:56> Pre-caching render meshes for camera position
+<16:57:56> Updating level streaming priorities for 1 cameras (LevelFrameId = 527)
+<16:57:56> -- 481.560333 522.808167 34.549725
+<16:57:59> general.exit_game_mode
+<16:57:59> Returned: 
+<16:57:59> CAIManager: navigation world monitor state: Stopped -> Started
+<16:58:03> ui_action.actionSwitch_to_Game
+<16:58:03> general.enter_game_mode
+<16:58:03> Returned: 
+<16:58:03> Returned: 
+<16:58:03> CAIManager: navigation world monitor state: Started -> Stopped
+<16:58:03> Pre-caching render meshes for camera position
+<16:58:03> Updating level streaming priorities for 1 cameras (LevelFrameId = 611)
+<16:58:04> -- 515.035339 504.510559 39.931293
+<16:58:14> general.exit_game_mode
+<16:58:14> Returned: 
+<16:58:14> CAIManager: navigation world monitor state: Stopped -> Started
+<16:58:20> ui_action.actionSwitch_to_Game
+<16:58:20> general.enter_game_mode
+<16:58:20> Returned: 
+<16:58:20> Returned: 
+<16:58:20> CAIManager: navigation world monitor state: Started -> Stopped
+<16:58:20> Pre-caching render meshes for camera position
+<16:58:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 895)
+<16:58:20> -- 505.700867 499.048492 41.074921
+<16:58:23> general.exit_game_mode
+<16:58:23> Returned: 
+<16:58:23> CAIManager: navigation world monitor state: Stopped -> Started
+<16:58:28> ui_action.actionSwitch_to_Game
+<16:58:28> general.enter_game_mode
+<16:58:28> Returned: 
+<16:58:28> Returned: 
+<16:58:28> CAIManager: navigation world monitor state: Started -> Stopped
+<16:58:34> general.exit_game_mode
+<16:58:34> Returned: 
+<16:58:34> CAIManager: navigation world monitor state: Stopped -> Started
+<16:59:14> New GeomEntity: primitive_box1
+<16:59:20> New GeomEntity: primitive_box2,primitive_box1
+<16:59:42> New GeomEntity: primitive_cube1,primitive_box2
+<16:59:56> New GeomEntity: primitive_cube_noproxy1,primitive_cube1
+<16:59:59> ui_action.actionScale
+<16:59:59> Returned: 
+<17:00:02> Select Object(s): primitive_cube_noproxy1,primitive_cube1
+<17:00:04> Manipulator Drag: primitive_cube1
+<17:00:04> Select Object(s): primitive_cube1
+<17:00:07> ui_action.actionSwitch_to_Game
+<17:00:07> general.enter_game_mode
+<17:00:07> Returned: 
+<17:00:07> Returned: 
+<17:00:07> CAIManager: navigation world monitor state: Started -> Stopped
+<17:00:07> Pre-caching render meshes for camera position
+<17:00:07> Updating level streaming priorities for 1 cameras (LevelFrameId = 1156)
+<17:00:07> -- 506.601807 482.760071 37.092182
+<17:00:13> general.exit_game_mode
+<17:00:13> Returned: 
+<17:00:13> CAIManager: navigation world monitor state: Stopped -> Started
+<17:00:16> ui_action.actionSwitch_to_Game
+<17:00:16> general.enter_game_mode
+<17:00:16> Returned: 
+<17:00:16> Returned: 
+<17:00:16> CAIManager: navigation world monitor state: Started -> Stopped
+<17:00:18> general.exit_game_mode
+<17:00:18> Returned: 
+<17:00:19> CAIManager: navigation world monitor state: Stopped -> Started
+<17:00:21> ui_action.actionSwitch_to_Game
+<17:00:21> general.enter_game_mode
+<17:00:21> Returned: 
+<17:00:21> Returned: 
+<17:00:22> CAIManager: navigation world monitor state: Started -> Stopped
+<17:00:27> general.exit_game_mode
+<17:00:27> Returned: 
+<17:00:27> CAIManager: navigation world monitor state: Stopped -> Started
+<17:00:31> ui_action.actionSwitch_to_Game
+<17:00:31> general.enter_game_mode
+<17:00:31> Returned: 
+<17:00:31> Returned: 
+<17:00:31> CAIManager: navigation world monitor state: Started -> Stopped
+<17:00:33> general.exit_game_mode
+<17:00:33> Returned: 
+<17:00:33> CAIManager: navigation world monitor state: Stopped -> Started
+<17:00:54> New GeomEntity: primitive_box3
+<17:00:56> ui_action.actionMove
+<17:00:56> Returned: 
+<17:01:00> Manipulator Drag: primitive_box3
+<17:01:02> ui_action.actionScale
+<17:01:02> Returned: 
+<17:01:08> Manipulator Drag: primitive_box3
+<17:01:13> Manipulator Drag: primitive_box3
+<17:01:15> Manipulator Drag: primitive_box3
+<17:01:16> Manipulator Drag: primitive_box3
+<17:01:17> ui_action.actionMove
+<17:01:17> Returned: 
+<17:01:18> Select Object(s): primitive_box3
+<17:01:19> Select Object(s): primitive_box3
+<17:01:22> Manipulator Drag: primitive_box3
+<17:01:23> ui_action.actionSwitch_to_Game
+<17:01:23> general.enter_game_mode
+<17:01:23> Returned: 
+<17:01:23> Returned: 
+<17:01:23> CAIManager: navigation world monitor state: Started -> Stopped
+<17:01:23> Pre-caching render meshes for camera position
+<17:01:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 1592)
+<17:01:23> -- 480.835297 496.985535 39.375008
+<17:01:33> general.exit_game_mode
+<17:01:33> Returned: 
+<17:01:33> CAIManager: navigation world monitor state: Stopped -> Started
+<17:01:53> New GeomEntity: primitive_cube2,primitive_box3
+<17:01:56> Manipulator Drag: primitive_cube2
+<17:01:57> ui_action.actionRotate
+<17:01:57> Returned: 
+<17:01:59> ui_action.actionScale
+<17:01:59> Returned: 
+<17:02:02> Manipulator Drag: primitive_cube2
+<17:02:05> Manipulator Drag: primitive_cube2
+<17:02:11> Manipulator Drag: primitive_cube2
+<17:02:13> Manipulator Drag: primitive_cube2
+<17:02:15> Select Object(s): primitive_cube2
+<17:02:18> ui_action.actionSwitch_to_Game
+<17:02:19> general.enter_game_mode
+<17:02:19> Returned: 
+<17:02:19> Returned: 
+<17:02:19> CAIManager: navigation world monitor state: Started -> Stopped
+<17:02:21> general.exit_game_mode
+<17:02:21> Returned: 
+<17:02:22> CAIManager: navigation world monitor state: Stopped -> Started
+<17:02:25> ui_action.actionSwitch_to_Game
+<17:02:25> general.enter_game_mode
+<17:02:25> Returned: 
+<17:02:25> Returned: 
+<17:02:25> CAIManager: navigation world monitor state: Started -> Stopped
+<17:02:27> general.exit_game_mode
+<17:02:27> Returned: 
+<17:02:27> CAIManager: navigation world monitor state: Stopped -> Started
+<17:02:29> ui_action.actionSwitch_to_Game
+<17:02:29> general.enter_game_mode
+<17:02:29> Returned: 
+<17:02:29> Returned: 
+<17:02:29> CAIManager: navigation world monitor state: Started -> Stopped
+<17:02:34> general.exit_game_mode
+<17:02:34> Returned: 
+<17:02:34> CAIManager: navigation world monitor state: Stopped -> Started
+<17:02:39> New GeomEntity: primitive_cube3
+<17:02:43> general.undo
+<17:02:43> Undo (Undo:26,Redo:1)
+<17:02:43> Returned: 
+<17:02:46> Select Object(s): primitive_box1
+<17:02:47> general.copy
+<17:02:47> Returned: 
+<17:02:47> Select Object(s): primitive_box1
+<17:02:48> general.paste
+<17:02:48> Paste Objects: primitive_box4
+<17:02:48> Returned: 
+<17:02:52> Manipulator Drag: primitive_box4
+<17:02:52> ui_action.actionMove
+<17:02:52> Returned: 
+<17:02:54> Manipulator Drag: primitive_box4
+<17:03:06> Select Object(s): primitive_box4,primitive_box1
+<17:03:07> ui_action.actionScale
+<17:03:07> Returned: 
+<17:03:12> Manipulator Drag: primitive_box1
+<17:03:12> Select Object(s): primitive_box1
+<17:03:17> Select Object(s): primitive_box1
+<17:03:20> Manipulator Drag: primitive_box1
+<17:03:20> Select Object(s): primitive_box1
+<17:03:35> ui_action.actionMove
+<17:03:35> Returned: 
+<17:03:38> Select Object(s): primitive_cube2
+<17:03:40> Select Object(s): primitive_cube2
+<17:03:43> Select Object(s): primitive_cube1
+<17:03:45> Manipulator Drag: primitive_cube1
+<17:03:47> Manipulator Drag: primitive_cube1
+<17:03:50> Manipulator Drag: primitive_cube1
+<17:03:51> Manipulator Drag: primitive_cube1
+<17:03:55> Manipulator Drag: primitive_cube1
+<17:04:16> ui_action.actionSwitch_to_Game
+<17:04:16> general.enter_game_mode
+<17:04:16> Returned: 
+<17:04:16> Returned: 
+<17:04:16> CAIManager: navigation world monitor state: Started -> Stopped
+<17:04:40> general.exit_game_mode
+<17:04:40> Returned: 
+<17:04:40> CAIManager: navigation world monitor state: Stopped -> Started
+<17:04:55> Select Object(s): primitive_cube1
+<17:04:56> general.undo
+<17:04:56> Undo (Undo:45,Redo:1)
+<17:04:56> Returned: 
+<17:04:57> general.undo
+<17:04:57> Undo (Undo:44,Redo:2)
+<17:04:57> Returned: 
+<17:05:00> Manipulator Drag: primitive_cube1
+<17:05:00> Select Object(s): primitive_cube1
+<17:05:01> Select Object(s): primitive_cube1
+<17:05:03> Manipulator Drag: primitive_cube1
+<17:05:04> Select Object(s): primitive_cube1
+<17:05:05> ui_action.actionSwitch_to_Game
+<17:05:05> general.enter_game_mode
+<17:05:05> Returned: 
+<17:05:05> Returned: 
+<17:05:05> CAIManager: navigation world monitor state: Started -> Stopped
+<17:05:06> Pre-caching render meshes for camera position
+<17:05:06> Updating level streaming priorities for 1 cameras (LevelFrameId = 2731)
+<17:05:06> -- 491.649597 500.766113 40.408730
+<17:05:59> general.exit_game_mode
+<17:05:59> Returned: 
+<17:05:59> CAIManager: navigation world monitor state: Stopped -> Started
+<17:06:40> ui_action.actionScale
+<17:06:40> Returned: 
+<17:06:48> New GeomEntity: primitive_cube_small1
+<17:06:51> Manipulator Drag: primitive_cube_small1
+<17:06:56> ui_action.actionRotate
+<17:06:56> Returned: 
+<17:06:59> Manipulator Drag: primitive_cube_small1
+<17:07:00> ui_action.actionMove
+<17:07:00> Returned: 
+<17:07:05> Manipulator Drag: primitive_cube_small1
+<17:07:07> ui_action.actionScale
+<17:07:07> Returned: 
+<17:07:09> ui_action.actionMove
+<17:07:09> Returned: 
+<17:07:11> Manipulator Drag: primitive_cube_small1
+<17:07:14> Manipulator Drag: primitive_cube_small1
+<17:07:16> Manipulator Drag: primitive_cube_small1
+<17:07:18> ui_action.actionRotate
+<17:07:18> Returned: 
+<17:07:23> Manipulator Drag: primitive_cube_small1
+<17:07:25> Manipulator Drag: primitive_cube_small1
+<17:07:26> ui_action.actionMove
+<17:07:26> Returned: 
+<17:07:31> Manipulator Drag: primitive_cube_small1
+<17:07:44> Select Object(s): primitive_cube_small1
+<17:07:49> Undo Object Canceled (Undo:60,Redo:0)
+<17:07:51> New GeomEntity: primitive_cube_small2
+<17:07:53> Manipulator Drag: primitive_cube_small2
+<17:07:54> ui_action.actionScale
+<17:07:54> Returned: 
+<17:07:57> Manipulator Drag: primitive_cube_small2
+<17:08:01> Manipulator Drag: primitive_cube_small2
+<17:08:04> Manipulator Drag: primitive_cube_small2
+<17:08:08> Manipulator Drag: primitive_cube_small2
+<17:08:11> Manipulator Drag: primitive_cube_small2
+<17:08:13> Manipulator Drag: primitive_cube_small2
+<17:08:15> ui_action.actionMove
+<17:08:15> Returned: 
+<17:08:17> Manipulator Drag: primitive_cube_small2
+<17:08:19> Manipulator Drag: primitive_cube_small2
+<17:08:19> Select Object(s): primitive_cube_small2
+<17:08:26> ui_action.actionSwitch_to_Game
+<17:08:26> general.enter_game_mode
+<17:08:26> Returned: 
+<17:08:26> Returned: 
+<17:08:26> CAIManager: navigation world monitor state: Started -> Stopped
+<17:08:26> Pre-caching render meshes for camera position
+<17:08:26> Updating level streaming priorities for 1 cameras (LevelFrameId = 4149)
+<17:08:26> -- 492.127258 493.738800 37.155148
+<17:08:33> general.exit_game_mode
+<17:08:33> Returned: 
+<17:08:33> CAIManager: navigation world monitor state: Stopped -> Started
+<17:08:39> ui_action.actionRotate
+<17:08:39> Returned: 
+<17:08:41> Select Object(s): primitive_cube_small1
+<17:08:44> Manipulator Drag: primitive_cube_small1
+<17:08:45> Select Object(s): primitive_cube_small1
+<17:08:47> ui_action.actionSelect_Mode
+<17:08:47> Returned: 
+<17:08:50> Select Object(s): primitive_cube_small2
+<17:08:52> ui_action.actionMove
+<17:08:52> Returned: 
+<17:08:57> Manipulator Drag: primitive_cube_small2
+<17:08:59> ui_action.actionScale
+<17:08:59> Returned: 
+<17:09:02> Manipulator Drag: primitive_cube_small2
+<17:09:10> ui_action.actionSwitch_to_Game
+<17:09:10> general.enter_game_mode
+<17:09:10> Returned: 
+<17:09:10> Returned: 
+<17:09:10> CAIManager: navigation world monitor state: Started -> Stopped
+<17:09:39> general.exit_game_mode
+<17:09:39> Returned: 
+<17:09:39> CAIManager: navigation world monitor state: Stopped -> Started
+<17:10:16> New GeomEntity: primitive_box5,primitive_cube_small2
+<17:10:29> New GeomEntity: primitive_box6,primitive_box5
+<17:10:31> general.undo
+<17:10:31> Undo (Undo:78,Redo:1)
+<17:10:31> Returned: 
+<17:10:36> New GeomEntity: primitive_box6,primitive_box5
+<17:10:38> ui_action.actionMove
+<17:10:38> Returned: 
+<17:10:40> Manipulator Drag: primitive_box6
+<17:10:41> ui_action.actionRotate
+<17:10:41> Returned: 
+<17:10:43> Manipulator Drag: primitive_box6
+<17:10:46> ui_action.actionMove
+<17:10:46> Returned: 
+<17:10:50> Manipulator Drag: primitive_box6
+<17:10:54> Manipulator Drag: primitive_box6
+<17:10:55> Select Object(s): primitive_box6
+<17:10:56> Select Object(s): primitive_cube_small1
+<17:10:57> general.delete
+<17:10:57> Delete Selection: ,primitive_cube_small1
+<17:10:57> Returned: 
+<17:10:58> Select Object(s): primitive_cube_small2
+<17:10:59> general.delete
+<17:10:59> Delete Selection: ,primitive_cube_small2
+<17:10:59> Returned: 
+<17:11:03> Select Object(s): primitive_box6
+<17:11:05> Manipulator Drag: primitive_box6
+<17:11:06> ui_action.actionRotate
+<17:11:06> Returned: 
+<17:11:08> Manipulator Drag: primitive_box6
+<17:11:10> Select Object(s): primitive_box6
+<17:11:15> ui_action.actionMove
+<17:11:15> Returned: 
+<17:11:15> Select Object(s): primitive_box6
+<17:11:17> Move Selection: primitive_box6
+<17:11:19> Manipulator Drag: primitive_box6
+<17:11:21> Manipulator Drag: primitive_box6
+<17:11:22> Select Object(s): primitive_box6
+<17:11:25> Select Object(s): primitive_box6
+<17:11:30> Storing layer settings...
+<17:11:30> Texture Layer Change: 
+<17:11:57> Rename Object: Alvo
+<17:12:12> New Brush: primitive_box7,Alvo
+<17:12:15> general.delete
+<17:12:15> Delete Selection: ,primitive_box7
+<17:12:15> Returned: 
+<17:12:28> layout.load 'Editor/Layouts/Animation.json'
+<17:12:30> [Warning] XML reader: Can't open file (assets\animations\mannequin\preview\sdk_playerpreview1p.xml)
+<17:12:31> Returned: 
+<17:12:36> Adding for file change notifications: 'editor\resourcecache\'
+<17:12:36> Task Completed: cdf scan
+<17:12:38> general.undo
+<17:12:38> Undo (Undo:101,Redo:1)
+<17:12:38> Returned: 
+<17:12:39> general.undo
+<17:12:39> Undo (Undo:100,Redo:2)
+<17:12:39> Returned: 
+<17:12:40> Task Completed: chrparams scan
+<17:12:43> Task Completed: cga scan
+<17:12:43> Select Object(s): Alvo
+<17:13:02> level.toggle_snap_to_grid
+<17:13:02> Returned: 
+<17:13:02> level.toggle_snap_to_grid
+<17:13:02> Returned: 
+<17:13:06> layout.load 'Editor/Layouts/Default Layout.json'
+<17:13:07> Returned: 
+<17:13:17> Select Object(s): Alvo
+<17:13:24> Button Edit: Alvo
+<17:13:36> ui_action.actionSwitch_to_Game
+<17:13:36> general.enter_game_mode
+<17:13:36> Returned: 
+<17:13:36> Returned: 
+<17:13:36> CAIManager: navigation world monitor state: Started -> Stopped
+<17:13:36> Pre-caching render meshes for camera position
+<17:13:36> Updating level streaming priorities for 1 cameras (LevelFrameId = 5084)
+<17:13:36> -- 491.752136 509.351135 36.638210
+<17:13:45> general.exit_game_mode
+<17:13:45> Returned: 
+<17:13:45> CAIManager: navigation world monitor state: Stopped -> Started
+<17:13:50> Group Make: Group1,Alvo
+<17:14:05> Select Object(s): Group1
+<17:14:10> general.undo
+<17:14:10> Undo (Undo:4,Redo:1)
+<17:14:10> Returned: 
+<17:14:11> general.undo
+<17:14:11> Undo (Undo:3,Redo:2)
+<17:14:11> Returned: 
+<17:14:19> Button Edit: Alvo
+<17:14:33> Button Edit: Alvo
+<17:14:35> Button Edit: Alvo
+<17:15:56> Select Object(s): Alvo
+<17:19:19> general.save
+<17:19:19> Saving to assets/Levels/Aula_Side/Aula_Side.cry...
+<17:19:19> Storing View settings...
+<17:19:19> Storing Fog settings...
+<17:19:19> Storing missions...<17:19:19> Done
+<17:19:19> 0 shader combination loaded for level assets/Levels/Aula_Side
+<17:19:19> Saving pak file assets\levels\aula_side\aula_side.tmp
+<17:19:19> Storing surface types...
+<17:19:19> Storing layer settings...
+<17:19:19> Saving Vegetation Map...
+<17:19:19> Level successfully saved
+<17:19:19> Returned: 
+<17:19:29> Terrain Modify: 
+<17:19:31> ui_action.actionMove
+<17:19:31> Returned: 
+<17:19:37> Terrain Modify: 
+<17:19:42> Terrain Modify: 
+<17:20:21> ui_action.actionSelect_Mode
+<17:20:21> Returned: 
+<17:20:35> New GeomEntity: primitive_box7
+<17:20:41> ui_action.actionRotate
+<17:20:41> Returned: 
+<17:20:47> Manipulator Drag: primitive_box7
+<17:20:49> ui_action.actionMove
+<17:20:49> Returned: 
+<17:20:49> ui_action.actionScale
+<17:20:49> Returned: 
+<17:20:52> Manipulator Drag: primitive_box7
+<17:20:53> Select Object(s): primitive_box7
+<17:21:04> ui_action.actionSwitch_to_Game
+<17:21:04> general.enter_game_mode
+<17:21:04> Returned: 
+<17:21:04> Returned: 
+<17:21:04> CAIManager: navigation world monitor state: Started -> Stopped
+<17:21:15> general.exit_game_mode
+<17:21:15> Returned: 
+<17:21:15> CAIManager: navigation world monitor state: Stopped -> Started
+<17:21:18> ui_action.actionSwitch_to_Game
+<17:21:18> general.enter_game_mode
+<17:21:18> Returned: 
+<17:21:18> Returned: 
+<17:21:18> CAIManager: navigation world monitor state: Started -> Stopped
+<17:21:29> general.exit_game_mode
+<17:21:29> Returned: 
+<17:21:29> CAIManager: navigation world monitor state: Stopped -> Started
+<17:21:35> Terrain Modify: 
+<17:21:40> Terrain Modify: 
+<17:21:42> Terrain Modify: 
+<17:21:43> Terrain Modify: 
+<17:21:43> Terrain Modify: 
+<17:21:46> Terrain Modify: 
+<17:21:48> ui_action.actionSwitch_to_Game
+<17:21:48> general.enter_game_mode
+<17:21:48> Returned: 
+<17:21:48> Returned: 
+<17:21:48> CAIManager: navigation world monitor state: Started -> Stopped
+<17:21:55> general.exit_game_mode
+<17:21:55> Returned: 
+<17:21:55> CAIManager: navigation world monitor state: Stopped -> Started
+<17:21:59> Terrain Modify: 
+<17:22:00> Terrain Modify: 
+<17:22:07> Terrain Modify: 
+<17:22:08> Terrain Modify: 
+<17:22:09> Terrain Modify: 
+<17:22:20> Terrain Modify: 
+<17:22:24> ui_action.actionSwitch_to_Game
+<17:22:24> general.enter_game_mode
+<17:22:24> Returned: 
+<17:22:24> Returned: 
+<17:22:24> CAIManager: navigation world monitor state: Started -> Stopped
+<17:22:24> Pre-caching render meshes for camera position
+<17:22:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 6080)
+<17:22:24> -- 495.207916 497.331909 53.100567
+<17:22:45> general.exit_game_mode
+<17:22:45> Returned: 
+<17:22:45> CAIManager: navigation world monitor state: Stopped -> Started
+<17:23:02> Terrain Modify: 
+<17:23:05> Terrain Modify: 
+<17:23:07> Terrain Modify: 
+<17:23:13> Terrain Modify: 
+<17:23:16> Terrain Modify: 
+<17:23:17> Terrain Modify: 
+<17:23:20> Terrain Modify: 
+<17:23:29> Terrain Modify: 
+<17:23:30> general.undo
+<17:23:30> Undo (Undo:33,Redo:1)
+<17:23:30> Returned: 
+<17:23:34> ui_action.actionMove
+<17:23:34> Returned: 
+<17:23:34> ui_action.actionSelect_Mode
+<17:23:34> Returned: 
+<17:23:46> Terrain Modify: 
+<17:23:47> Terrain Modify: 
+<17:23:50> Terrain Modify: 
+<17:23:53> Terrain Modify: 
+<17:23:54> Terrain Modify: 
+<17:23:54> Terrain Modify: 
+<17:23:55> Terrain Modify: 
+<17:24:05> Terrain Modify: 
+<17:24:12> Terrain Modify: 
+<17:24:25> Terrain Modify: 
+<17:24:31> Terrain Modify: 
+<17:24:33> ui_action.actionSwitch_to_Game
+<17:24:33> general.enter_game_mode
+<17:24:33> Returned: 
+<17:24:33> Returned: 
+<17:24:33> CAIManager: navigation world monitor state: Started -> Stopped
+<17:24:34> Pre-caching render meshes for camera position
+<17:24:34> Updating level streaming priorities for 1 cameras (LevelFrameId = 6658)
+<17:24:34> -- 493.307892 495.313507 48.980541
+<17:24:40> general.exit_game_mode
+<17:24:40> Returned: 
+<17:24:40> CAIManager: navigation world monitor state: Stopped -> Started
+<17:24:43> Terrain Modify: 
+<17:24:46> Terrain Modify: 
+<17:24:47> Terrain Modify: 
+<17:24:50> Terrain Modify: 
+<17:24:51> ui_action.actionSwitch_to_Game
+<17:24:51> general.enter_game_mode
+<17:24:51> Returned: 
+<17:24:51> Returned: 
+<17:24:51> CAIManager: navigation world monitor state: Started -> Stopped
+<17:25:00> general.exit_game_mode
+<17:25:00> Returned: 
+<17:25:00> CAIManager: navigation world monitor state: Stopped -> Started
+<17:25:03> Terrain Modify: 
+<17:25:06> Terrain Modify: 
+<17:25:09> Terrain Modify: 
+<17:25:16> Terrain Modify: 
+<17:25:21> ui_action.actionSwitch_to_Game
+<17:25:21> general.enter_game_mode
+<17:25:21> Returned: 
+<17:25:21> Returned: 
+<17:25:21> CAIManager: navigation world monitor state: Started -> Stopped
+<17:25:31> general.exit_game_mode
+<17:25:31> Returned: 
+<17:25:31> CAIManager: navigation world monitor state: Stopped -> Started
+<17:25:42> ui_action.actionSwitch_to_Game
+<17:25:42> general.enter_game_mode
+<17:25:42> Returned: 
+<17:25:42> Returned: 
+<17:25:42> CAIManager: navigation world monitor state: Started -> Stopped
+<17:25:42> Pre-caching render meshes for camera position
+<17:25:42> Updating level streaming priorities for 1 cameras (LevelFrameId = 7352)
+<17:25:42> -- 490.797028 496.667114 37.598026
+<17:25:43> general.exit_game_mode
+<17:25:43> Returned: 
+<17:25:43> CAIManager: navigation world monitor state: Stopped -> Started
+<17:25:46> ui_action.actionSwitch_to_Game
+<17:25:46> general.enter_game_mode
+<17:25:46> Returned: 
+<17:25:46> Returned: 
+<17:25:46> CAIManager: navigation world monitor state: Started -> Stopped
+<17:25:48> general.exit_game_mode
+<17:25:48> Returned: 
+<17:25:48> CAIManager: navigation world monitor state: Stopped -> Started
+<17:25:51> ui_action.actionSwitch_to_Game
+<17:25:51> general.enter_game_mode
+<17:25:51> Returned: 
+<17:25:51> Returned: 
+<17:25:51> CAIManager: navigation world monitor state: Started -> Stopped
+<17:26:15> general.exit_game_mode
+<17:26:15> Returned: 
+<17:26:15> CAIManager: navigation world monitor state: Stopped -> Started
+<17:26:19> Terrain Modify: 
+<17:26:25> ui_action.actionEnable_Physics_AI
+<17:26:25> Returned: 
+<17:26:26> ui_action.actionSwitch_to_Game
+<17:26:26> general.enter_game_mode
+<17:26:26> Returned: 
+<17:26:26> Returned: 
+<17:26:26> CAIManager: navigation world monitor state: Started -> Stopped
+<17:27:03> general.exit_game_mode
+<17:27:03> Returned: 
+<17:27:03> CAIManager: navigation world monitor state: Stopped -> Started
+<17:27:23> Terrain Modify: 
+<17:27:33> general.undo
+<17:27:33> Undo (Undo:53,Redo:1)
+<17:27:33> Returned: 
+<17:27:38> Terrain Modify: 
+<17:27:47> Terrain Modify: 
+<17:27:48> general.undo
+<17:27:48> Undo (Undo:54,Redo:1)
+<17:27:48> Returned: 
+<17:27:48> general.undo
+<17:27:48> Undo (Undo:53,Redo:2)
+<17:27:49> Returned: 
+<17:27:51> Terrain Modify: 
+<17:27:54> ui_action.actionMove
+<17:27:54> Returned: 
+<17:28:07> Terrain Modify: 
+<17:28:13> general.undo
+<17:28:13> Undo (Undo:54,Redo:1)
+<17:28:13> Returned: 
+<17:28:17> Terrain Modify: 
+<17:28:18> Terrain Modify: 
+<17:28:20> Terrain Modify: 
+<17:28:29> Terrain Modify: 
+<17:28:29> Terrain Modify: 
+<17:28:29> Terrain Modify: 
+<17:28:29> Terrain Modify: 
+<17:28:29> Terrain Modify: 
+<17:28:30> Terrain Modify: 
+<17:28:30> Terrain Modify: 
+<17:28:30> Terrain Modify: 
+<17:28:47> Terrain Modify: 
+<17:28:48> Terrain Modify: 
+<17:28:55> Terrain Modify: 
+<17:28:55> Terrain Modify: 
+<17:28:56> Terrain Modify: 
+<17:28:56> Terrain Modify: 
+<17:28:58> Terrain Modify: 
+<17:28:58> Terrain Modify: 
+<17:28:58> Terrain Modify: 
+<17:29:00> Terrain Modify: 
+<17:29:04> Terrain Modify: 
+<17:29:05> Terrain Modify: 
+<17:29:05> Terrain Modify: 
+<17:29:05> Terrain Modify: 
+<17:29:06> Terrain Modify: 
+<17:29:06> Terrain Modify: 
+<17:29:15> Terrain Modify: 
+<17:29:27> Pre-caching render meshes for camera position
+<17:29:27> Updating level streaming priorities for 1 cameras (LevelFrameId = 12461)
+<17:29:27> -- 476.976929 644.409424 107.621597
+<17:29:27> Pre-caching render meshes for camera position
+<17:29:27> Updating level streaming priorities for 1 cameras (LevelFrameId = 12462)
+<17:29:27> -- 469.653168 661.151855 121.057861
+<17:29:27> Pre-caching render meshes for camera position
+<17:29:27> Updating level streaming priorities for 1 cameras (LevelFrameId = 12463)
+<17:29:27> -- 459.987122 683.248840 138.791321
+<17:29:27> Pre-caching render meshes for camera position
+<17:29:27> Updating level streaming priorities for 1 cameras (LevelFrameId = 12464)
+<17:29:27> -- 459.987122 683.248840 138.791321
+<17:29:28> Pre-caching render meshes for camera position
+<17:29:28> Updating level streaming priorities for 1 cameras (LevelFrameId = 12502)
+<17:29:28> -- 476.773438 644.874573 110.956818
+<17:29:28> Pre-caching render meshes for camera position
+<17:29:28> Updating level streaming priorities for 1 cameras (LevelFrameId = 12503)
+<17:29:28> -- 483.894440 628.595703 97.892563
+<17:29:28> Pre-caching render meshes for camera position
+<17:29:28> Updating level streaming priorities for 1 cameras (LevelFrameId = 12504)
+<17:29:28> -- 483.894440 628.595703 97.892563
+<17:29:29> Pre-caching render meshes for camera position
+<17:29:29> Updating level streaming priorities for 1 cameras (LevelFrameId = 12511)
+<17:29:29> -- 498.033722 596.272766 71.952492
+<17:29:29> Pre-caching render meshes for camera position
+<17:29:29> Updating level streaming priorities for 1 cameras (LevelFrameId = 12512)
+<17:29:29> -- 505.494598 579.216919 58.264675
+<17:29:29> Pre-caching render meshes for camera position
+<17:29:29> Updating level streaming priorities for 1 cameras (LevelFrameId = 12513)
+<17:29:29> -- 505.494598 579.216919 58.264675
+<17:29:29> Pre-caching render meshes for camera position
+<17:29:29> Updating level streaming priorities for 1 cameras (LevelFrameId = 12523)
+<17:29:29> -- 457.390778 562.554199 59.739834
+<17:29:29> Pre-caching render meshes for camera position
+<17:29:29> Updating level streaming priorities for 1 cameras (LevelFrameId = 12524)
+<17:29:29> -- 457.384766 562.567871 59.745319
+<17:29:29> Pre-caching render meshes for camera position
+<17:29:29> Updating level streaming priorities for 1 cameras (LevelFrameId = 12532)
+<17:29:29> -- 446.180908 600.569214 87.164383
+<17:29:30> Pre-caching render meshes for camera position
+<17:29:30> Updating level streaming priorities for 1 cameras (LevelFrameId = 12533)
+<17:29:30> -- 438.786804 617.554993 100.785255
+<17:29:30> Pre-caching render meshes for camera position
+<17:29:30> Updating level streaming priorities for 1 cameras (LevelFrameId = 12534)
+<17:29:30> -- 438.788361 617.555664 100.785248
+<17:29:30> Pre-caching render meshes for camera position
+<17:29:30> Updating level streaming priorities for 1 cameras (LevelFrameId = 12539)
+<17:29:30> -- 424.225311 650.847656 127.502975
+<17:29:30> Pre-caching render meshes for camera position
+<17:29:30> Updating level streaming priorities for 1 cameras (LevelFrameId = 12540)
+<17:29:30> -- 417.026855 667.303650 140.709351
+<17:29:30> Pre-caching render meshes for camera position
+<17:29:30> Updating level streaming priorities for 1 cameras (LevelFrameId = 12541)
+<17:29:30> -- 417.026855 667.303650 140.709351
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12599)
+<17:29:32> -- 397.466278 697.211365 163.768784
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12600)
+<17:29:32> -- 397.466278 697.211365 163.768784
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12602)
+<17:29:32> -- 377.754944 728.487366 187.884308
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12603)
+<17:29:32> -- 367.793457 744.293274 200.071533
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12604)
+<17:29:32> -- 357.730469 760.260193 212.382935
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12605)
+<17:29:32> -- 347.956085 775.769165 224.341232
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12606)
+<17:29:32> -- 337.946472 791.651428 236.587341
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12607)
+<17:29:32> -- 328.603577 806.475830 248.017761
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12608)
+<17:29:32> -- 318.958221 821.780090 259.818207
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12609)
+<17:29:32> -- 309.243286 837.194763 271.703766
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12610)
+<17:29:32> -- 299.956604 851.929932 283.065430
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12611)
+<17:29:32> -- 290.631592 866.725952 294.473969
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12612)
+<17:29:32> -- 281.075531 881.888550 306.165161
+<17:29:32> Pre-caching render meshes for camera position
+<17:29:32> Updating level streaming priorities for 1 cameras (LevelFrameId = 12613)
+<17:29:32> -- 271.829498 896.559204 317.477081
+<17:29:33> Pre-caching render meshes for camera position
+<17:29:33> Updating level streaming priorities for 1 cameras (LevelFrameId = 12614)
+<17:29:33> -- 262.404358 911.514038 329.008118
+<17:29:33> Pre-caching render meshes for camera position
+<17:29:33> Updating level streaming priorities for 1 cameras (LevelFrameId = 12615)
+<17:29:33> -- 253.253342 926.033936 340.203766
+<17:29:33> Pre-caching render meshes for camera position
+<17:29:33> Updating level streaming priorities for 1 cameras (LevelFrameId = 12616)
+<17:29:33> -- 243.888962 940.892395 351.660461
+<17:29:33> Pre-caching render meshes for camera position
+<17:29:33> Updating level streaming priorities for 1 cameras (LevelFrameId = 12617)
+<17:29:33> -- 234.521301 955.756042 363.121185
+<17:29:33> Pre-caching render meshes for camera position
+<17:29:33> Updating level streaming priorities for 1 cameras (LevelFrameId = 12618)
+<17:29:33> -- 225.285431 970.410583 374.420654
+<17:29:33> Pre-caching render meshes for camera position
+<17:29:33> Updating level streaming priorities for 1 cameras (LevelFrameId = 12619)
+<17:29:33> -- 213.814056 988.612183 388.455139
+<17:29:33> Pre-caching render meshes for camera position
+<17:29:33> Updating level streaming priorities for 1 cameras (LevelFrameId = 12620)
+<17:29:33> -- 202.783997 1006.113586 401.949677
+<17:29:33> Pre-caching render meshes for camera position
+<17:29:33> Updating level streaming priorities for 1 cameras (LevelFrameId = 12621)
+<17:29:33> -- 192.172150 1022.951416 414.932587
+<17:29:33> Pre-caching render meshes for camera position
+<17:29:33> Updating level streaming priorities for 1 cameras (LevelFrameId = 12622)
+<17:29:33> -- 192.172150 1022.951416 414.932587
+<17:29:36> Pre-caching render meshes for camera position
+<17:29:36> Updating level streaming priorities for 1 cameras (LevelFrameId = 12682)
+<17:29:36> -- 240.040100 946.999329 359.101044
+<17:29:36> Pre-caching render meshes for camera position
+<17:29:36> Updating level streaming priorities for 1 cameras (LevelFrameId = 12693)
+<17:29:36> -- 257.908112 918.648193 337.240723
+<17:29:36> Pre-caching render meshes for camera position
+<17:29:36> Updating level streaming priorities for 1 cameras (LevelFrameId = 12694)
+<17:29:36> -- 266.798615 904.541626 326.363770
+<17:29:36> Pre-caching render meshes for camera position
+<17:29:36> Updating level streaming priorities for 1 cameras (LevelFrameId = 12695)
+<17:29:36> -- 275.671387 890.463196 315.508514
+<17:29:36> Pre-caching render meshes for camera position
+<17:29:36> Updating level streaming priorities for 1 cameras (LevelFrameId = 12696)
+<17:29:36> -- 284.622742 876.260071 304.557098
+<17:29:36> Pre-caching render meshes for camera position
+<17:29:36> Updating level streaming priorities for 1 cameras (LevelFrameId = 12697)
+<17:29:37> -- 293.645325 861.943970 293.518585
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12698)
+<17:29:37> -- 302.702637 847.572754 282.437561
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12699)
+<17:29:37> -- 311.771362 833.183411 271.342560
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12700)
+<17:29:37> -- 320.938385 818.638062 260.127289
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12701)
+<17:29:37> -- 330.118042 804.072754 248.896606
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12702)
+<17:29:37> -- 339.326538 789.461609 237.630615
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12703)
+<17:29:37> -- 348.611359 774.729370 226.271240
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12704)
+<17:29:37> -- 357.925903 759.949951 214.875504
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12705)
+<17:29:37> -- 367.269775 745.124023 203.443893
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12706)
+<17:29:37> -- 376.671814 730.205811 191.941132
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12707)
+<17:29:37> -- 386.256561 714.997681 180.214828
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12708)
+<17:29:37> -- 395.831482 699.805176 168.500565
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12709)
+<17:29:37> -- 405.727051 684.103882 156.393982
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12710)
+<17:29:37> -- 415.430969 668.706665 144.521866
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12711)
+<17:29:37> -- 425.463989 652.787292 132.247116
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12712)
+<17:29:37> -- 435.303314 637.175232 120.209351
+<17:29:37> Pre-caching render meshes for camera position
+<17:29:37> Updating level streaming priorities for 1 cameras (LevelFrameId = 12713)
+<17:29:37> -- 435.303314 637.175232 120.209351
+<17:29:38> Pre-caching render meshes for camera position
+<17:29:38> Updating level streaming priorities for 1 cameras (LevelFrameId = 12729)
+<17:29:38> -- 474.705231 574.656250 72.003723
+<17:29:38> Pre-caching render meshes for camera position
+<17:29:38> Updating level streaming priorities for 1 cameras (LevelFrameId = 12730)
+<17:29:38> -- 474.705231 574.656250 72.003723
+<17:29:53> general.save
+<17:29:53> Saving to assets/Levels/Aula_Side/Aula_Side.cry...
+<17:29:53> Storing View settings...
+<17:29:53> Storing Fog settings...
+<17:29:53> Storing missions...<17:29:53> Done
+<17:29:53> 0 shader combination loaded for level assets/Levels/Aula_Side
+<17:29:53> Saving pak file assets\levels\aula_side\aula_side.tmp
+<17:29:53> Storing surface types...
+<17:29:53> Storing layer settings...
+<17:29:53> Saving Vegetation Map...
+<17:29:53> Level successfully saved
+<17:29:53> Returned: 
+<17:30:18> Pre-caching render meshes for camera position
+<17:30:18> Updating level streaming priorities for 1 cameras (LevelFrameId = 13653)
+<17:30:18> -- 103.273666 683.123474 -507.264709
+<17:30:18> Pre-caching render meshes for camera position
+<17:30:18> Updating level streaming priorities for 1 cameras (LevelFrameId = 13654)
+<17:30:18> -- 104.556465 682.428589 -527.837402
+<17:30:18> Pre-caching render meshes for camera position
+<17:30:18> Updating level streaming priorities for 1 cameras (LevelFrameId = 13655)
+<17:30:18> -- 105.839539 681.733582 -548.414490
+<17:30:18> Pre-caching render meshes for camera position
+<17:30:18> Updating level streaming priorities for 1 cameras (LevelFrameId = 13656)
+<17:30:18> -- 107.115456 681.042419 -568.876892
+<17:30:18> Pre-caching render meshes for camera position
+<17:30:18> Updating level streaming priorities for 1 cameras (LevelFrameId = 13657)
+<17:30:18> -- 108.396301 680.348572 -589.418335
+<17:30:18> Pre-caching render meshes for camera position
+<17:30:18> Updating level streaming priorities for 1 cameras (LevelFrameId = 13658)
+<17:30:18> -- 109.675941 679.655396 -609.940369
+<17:30:18> Pre-caching render meshes for camera position
+<17:30:18> Updating level streaming priorities for 1 cameras (LevelFrameId = 13659)
+<17:30:18> -- 110.967354 678.955872 -630.651245
+<17:30:18> Pre-caching render meshes for camera position
+<17:30:18> Updating level streaming priorities for 1 cameras (LevelFrameId = 13660)
+<17:30:18> -- 112.265533 678.252686 -651.470642
+<17:30:18> Pre-caching render meshes for camera position
+<17:30:18> Updating level streaming priorities for 1 cameras (LevelFrameId = 13661)
+<17:30:18> -- 113.524734 677.570618 -671.664917
+<17:30:18> Pre-caching render meshes for camera position
+<17:30:18> Updating level streaming priorities for 1 cameras (LevelFrameId = 13662)
+<17:30:18> -- 114.795334 676.882324 -692.041992
+<17:30:18> Pre-caching render meshes for camera position
+<17:30:18> Updating level streaming priorities for 1 cameras (LevelFrameId = 13663)
+<17:30:18> -- 116.089493 676.181274 -712.796936
+<17:30:18> Pre-caching render meshes for camera position
+<17:30:18> Updating level streaming priorities for 1 cameras (LevelFrameId = 13664)
+<17:30:18> -- 117.381554 675.481384 -733.518188
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13665)
+<17:30:19> -- 118.682823 674.776489 -754.387146
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13666)
+<17:30:19> -- 119.983971 674.071655 -775.254150
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13667)
+<17:30:19> -- 121.289734 673.364319 -796.195190
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13668)
+<17:30:19> -- 122.600906 672.654053 -817.222961
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13669)
+<17:30:19> -- 123.913391 671.943115 -838.271729
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13670)
+<17:30:19> -- 125.215599 671.237732 -859.155762
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13671)
+<17:30:19> -- 126.517471 670.532532 -880.034363
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13672)
+<17:30:19> -- 127.823631 669.825012 -900.981812
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13673)
+<17:30:19> -- 129.130737 669.116943 -921.944336
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13674)
+<17:30:19> -- 130.430969 668.412598 -942.796692
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13675)
+<17:30:19> -- 131.731369 667.708191 -963.651672
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13676)
+<17:30:19> -- 133.029861 667.004822 -984.476013
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13677)
+<17:30:19> -- 134.331512 666.299744 -1005.351074
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13678)
+<17:30:19> -- 135.649963 665.585571 -1026.495728
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13679)
+<17:30:19> -- 136.995300 664.856812 -1048.071533
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13680)
+<17:30:19> -- 138.308472 664.145508 -1069.131470
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13681)
+<17:30:19> -- 139.631195 663.429016 -1090.344482
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13682)
+<17:30:19> -- 140.943512 662.718140 -1111.390625
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13683)
+<17:30:19> -- 142.258011 662.006104 -1132.471802
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13684)
+<17:30:19> -- 143.572952 661.293823 -1153.560059
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13685)
+<17:30:19> -- 144.875092 660.588440 -1174.443115
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13686)
+<17:30:19> -- 146.140915 659.902771 -1194.743652
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13687)
+<17:30:19> -- 147.444366 659.196716 -1215.647705
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13688)
+<17:30:19> -- 148.751602 658.488586 -1236.612305
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13689)
+<17:30:19> -- 150.067566 657.775757 -1257.717041
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13690)
+<17:30:19> -- 151.392044 657.058289 -1278.958130
+<17:30:19> Pre-caching render meshes for camera position
+<17:30:19> Updating level streaming priorities for 1 cameras (LevelFrameId = 13691)
+<17:30:19> -- 152.710922 656.343872 -1300.109497
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13692)
+<17:30:20> -- 154.031754 655.628418 -1321.292236
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13693)
+<17:30:20> -- 155.375793 654.900391 -1342.847046
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13694)
+<17:30:20> -- 156.701477 654.182312 -1364.107544
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13695)
+<17:30:20> -- 158.008484 653.474304 -1385.068604
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13696)
+<17:30:20> -- 159.308594 652.770081 -1405.918823
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13697)
+<17:30:20> -- 160.601578 652.069702 -1426.654785
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13698)
+<17:30:20> -- 161.908310 651.361877 -1447.611328
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13699)
+<17:30:20> -- 163.217697 650.652588 -1468.610352
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13700)
+<17:30:20> -- 164.510620 649.952209 -1489.345459
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13701)
+<17:30:20> -- 165.815338 649.245483 -1510.269775
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13702)
+<17:30:20> -- 167.120773 648.538330 -1531.205444
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13703)
+<17:30:20> -- 168.432220 647.827942 -1552.237549
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13704)
+<17:30:20> -- 169.749649 647.114319 -1573.365723
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13705)
+<17:30:20> -- 171.048874 646.410522 -1594.201782
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13706)
+<17:30:20> -- 172.339401 645.711487 -1614.898438
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13707)
+<17:30:20> -- 173.627151 645.013916 -1635.550537
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13708)
+<17:30:20> -- 174.915848 644.315857 -1656.218018
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13709)
+<17:30:20> -- 176.216904 643.611084 -1677.083618
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13710)
+<17:30:20> -- 177.523788 642.903137 -1698.042725
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13711)
+<17:30:20> -- 178.813110 642.204712 -1718.719971
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13712)
+<17:30:20> -- 180.110428 641.501953 -1739.525513
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13713)
+<17:30:20> -- 181.416412 640.794495 -1760.470215
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13714)
+<17:30:20> -- 182.721893 640.087341 -1781.406616
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13715)
+<17:30:20> -- 184.029205 639.379211 -1802.372437
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13716)
+<17:30:20> -- 185.332428 638.673279 -1823.272583
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13717)
+<17:30:20> -- 186.629501 637.970703 -1844.074097
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13718)
+<17:30:20> -- 187.953094 637.253723 -1865.301025
+<17:30:20> Pre-caching render meshes for camera position
+<17:30:20> Updating level streaming priorities for 1 cameras (LevelFrameId = 13719)
+<17:30:20> -- 189.266815 636.542114 -1886.369629
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13720)
+<17:30:21> -- 190.577301 635.832275 -1907.386230
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13721)
+<17:30:21> -- 191.887131 635.122742 -1928.392334
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13722)
+<17:30:21> -- 193.187805 634.418213 -1949.251709
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13723)
+<17:30:21> -- 194.503220 633.705688 -1970.347412
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13724)
+<17:30:21> -- 195.819000 632.992920 -1991.449097
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13725)
+<17:30:21> -- 197.126480 632.288086 -2012.394897
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13726)
+<17:30:21> -- 198.449493 631.596008 -2033.449707
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13727)
+<17:30:21> -- 199.818130 630.931885 -2054.899414
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13728)
+<17:30:21> -- 201.190781 630.292175 -2076.250244
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13729)
+<17:30:21> -- 202.565002 629.649414 -2097.642578
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13730)
+<17:30:21> -- 203.930511 629.006836 -2118.923828
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13731)
+<17:30:21> -- 205.326126 628.349060 -2140.680176
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13732)
+<17:30:21> -- 206.697006 627.719604 -2161.951904
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13733)
+<17:30:21> -- 208.079880 627.098389 -2183.329102
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13734)
+<17:30:21> -- 209.440170 626.499146 -2204.289795
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13735)
+<17:30:21> -- 210.813232 625.894897 -2225.443604
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13736)
+<17:30:21> -- 212.188049 625.286987 -2246.641113
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13737)
+<17:30:21> -- 213.562317 624.679138 -2267.831299
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13738)
+<17:30:21> -- 214.906052 624.084778 -2288.550537
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13739)
+<17:30:21> -- 216.268372 623.482239 -2309.556641
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13740)
+<17:30:21> -- 217.631668 622.879272 -2330.577637
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13741)
+<17:30:21> -- 218.997589 622.275146 -2351.638916
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13742)
+<17:30:21> -- 220.365402 621.670166 -2372.729492
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13743)
+<17:30:21> -- 221.735825 621.064026 -2393.860352
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13744)
+<17:30:21> -- 223.100815 620.460266 -2414.907471
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13745)
+<17:30:21> -- 224.466095 619.856384 -2435.958984
+<17:30:21> Pre-caching render meshes for camera position
+<17:30:21> Updating level streaming priorities for 1 cameras (LevelFrameId = 13746)
+<17:30:21> -- 225.838287 619.249451 -2457.117188
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13747)
+<17:30:22> -- 227.207199 618.643982 -2478.224854
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13748)
+<17:30:22> -- 228.579575 618.036987 -2499.385742
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13749)
+<17:30:22> -- 229.944550 617.433228 -2520.432617
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13750)
+<17:30:22> -- 231.495590 616.728577 -2541.471924
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13751)
+<17:30:22> -- 234.364487 615.159851 -2562.394531
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13752)
+<17:30:22> -- 238.302765 612.260986 -2583.214111
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13753)
+<17:30:22> -- 242.820374 607.978943 -2603.648193
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13754)
+<17:30:22> -- 247.786636 601.949402 -2623.657959
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13755)
+<17:30:22> -- 252.009644 591.948547 -2642.252686
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13756)
+<17:30:22> -- 254.586380 577.371582 -2658.645264
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13757)
+<17:30:22> -- 255.035721 560.478088 -2672.466797
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13758)
+<17:30:22> -- 251.546219 541.645142 -2683.489990
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13759)
+<17:30:22> -- 244.249023 522.852661 -2692.002686
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13760)
+<17:30:22> -- 235.047073 504.232758 -2698.926514
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13761)
+<17:30:22> -- 225.546249 485.680725 -2705.056641
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13762)
+<17:30:22> -- 215.809937 467.001434 -2710.941162
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13763)
+<17:30:22> -- 206.110413 448.656250 -2716.224854
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13764)
+<17:30:22> -- 196.215881 430.087799 -2721.303223
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13765)
+<17:30:22> -- 186.326492 411.945374 -2725.932861
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13766)
+<17:30:22> -- 175.759857 393.739258 -2729.803223
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13767)
+<17:30:22> -- 164.330353 375.961395 -2732.427002
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13768)
+<17:30:22> -- 152.085266 358.703339 -2733.812988
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13769)
+<17:30:22> -- 139.173523 342.185547 -2733.799316
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13770)
+<17:30:22> -- 125.060081 326.616486 -2732.165283
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13771)
+<17:30:22> -- 109.598831 311.720825 -2729.129883
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13772)
+<17:30:22> -- 93.866211 297.802826 -2725.367188
+<17:30:22> Pre-caching render meshes for camera position
+<17:30:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 13773)
+<17:30:22> -- 77.829315 284.501099 -2720.957031
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13774)
+<17:30:23> -- 61.722553 271.677460 -2716.177002
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13775)
+<17:30:23> -- 45.374237 259.152863 -2711.082275
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13776)
+<17:30:23> -- 28.777784 247.207169 -2705.730469
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13777)
+<17:30:23> -- 11.235047 236.832535 -2699.524902
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13778)
+<17:30:23> -- -6.599866 228.954086 -2692.142334
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13779)
+<17:30:23> -- -24.790535 222.155670 -2683.904297
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13780)
+<17:30:23> -- -43.057854 215.871643 -2674.982666
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13781)
+<17:30:23> -- -61.379719 209.845474 -2665.748535
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13782)
+<17:30:23> -- -79.616066 203.829987 -2656.565918
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13783)
+<17:30:23> -- -97.841286 197.749130 -2647.418213
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13784)
+<17:30:23> -- -115.897972 191.703171 -2638.030518
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13785)
+<17:30:23> -- -133.633621 185.921280 -2627.890869
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13786)
+<17:30:23> -- -150.611771 180.796707 -2615.930420
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13787)
+<17:30:23> -- -166.535172 176.079895 -2602.833984
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13788)
+<17:30:23> -- -182.139709 171.278778 -2589.554932
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13789)
+<17:30:23> -- -197.948303 166.310501 -2576.282471
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13790)
+<17:30:23> -- -213.775909 161.273315 -2563.064453
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13791)
+<17:30:23> -- -229.386505 155.819656 -2549.637939
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13792)
+<17:30:23> -- -243.813568 149.720932 -2535.239990
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13793)
+<17:30:23> -- -256.872711 143.529312 -2519.707520
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13794)
+<17:30:23> -- -269.396606 137.623688 -2503.550049
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13795)
+<17:30:23> -- -281.885437 131.887543 -2487.219482
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13796)
+<17:30:23> -- -294.357819 126.246521 -2471.031982
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13797)
+<17:30:23> -- -306.940063 120.624054 -2454.812500
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13798)
+<17:30:23> -- -320.390045 115.557549 -2439.097168
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13799)
+<17:30:23> -- -335.545074 111.523323 -2424.332275
+<17:30:23> Pre-caching render meshes for camera position
+<17:30:23> Updating level streaming priorities for 1 cameras (LevelFrameId = 13800)
+<17:30:23> -- -352.515228 108.932930 -2411.290283
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13801)
+<17:30:24> -- -371.463531 108.105270 -2401.130127
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13802)
+<17:30:24> -- -392.288513 108.914665 -2395.056152
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13803)
+<17:30:24> -- -413.795410 112.101051 -2394.494141
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13804)
+<17:30:24> -- -434.692596 117.607338 -2397.767578
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13805)
+<17:30:24> -- -454.518036 123.812302 -2402.932373
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13806)
+<17:30:24> -- -473.538361 129.583084 -2410.067383
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13807)
+<17:30:24> -- -491.978455 134.973740 -2419.017334
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13808)
+<17:30:24> -- -509.359375 140.026840 -2430.177979
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13809)
+<17:30:24> -- -525.131287 144.402969 -2443.670166
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13810)
+<17:30:24> -- -539.433105 147.853745 -2458.799561
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13811)
+<17:30:24> -- -552.249268 150.359222 -2475.482910
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13812)
+<17:30:24> -- -562.824280 151.608261 -2493.967041
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13813)
+<17:30:24> -- -571.763245 151.895020 -2513.260742
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13814)
+<17:30:24> -- -578.461670 151.280533 -2533.400391
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13815)
+<17:30:24> -- -581.802979 150.249985 -2554.535645
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13816)
+<17:30:24> -- -582.476563 149.632675 -2575.867432
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13817)
+<17:30:24> -- -583.126648 148.805984 -2597.332031
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13818)
+<17:30:24> -- -584.051636 147.600632 -2618.563477
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13819)
+<17:30:24> -- -584.717163 146.221786 -2639.750000
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13820)
+<17:30:24> -- -585.155701 144.743851 -2661.149170
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13821)
+<17:30:24> -- -585.394409 143.232315 -2682.519043
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13822)
+<17:30:24> -- -585.532349 141.735962 -2703.589600
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13823)
+<17:30:24> -- -585.593323 140.242233 -2724.627441
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13824)
+<17:30:24> -- -585.511963 138.746262 -2745.705811
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13825)
+<17:30:24> -- -585.316223 137.253448 -2766.874756
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13826)
+<17:30:24> -- -585.063782 135.775040 -2787.990967
+<17:30:24> Pre-caching render meshes for camera position
+<17:30:24> Updating level streaming priorities for 1 cameras (LevelFrameId = 13827)
+<17:30:25> -- -584.636230 134.336639 -2809.115723
+<17:30:25> Pre-caching render meshes for camera position
+<17:30:25> Updating level streaming priorities for 1 cameras (LevelFrameId = 13828)
+<17:30:25> -- -584.045288 132.957016 -2830.173340
+<17:30:25> Pre-caching render meshes for camera position
+<17:30:25> Updating level streaming priorities for 1 cameras (LevelFrameId = 13829)
+<17:30:25> -- -583.344421 131.621750 -2851.364014
+<17:30:25> Pre-caching render meshes for camera position
+<17:30:25> Updating level streaming priorities for 1 cameras (LevelFrameId = 13830)
+<17:30:25> -- -582.543640 130.344727 -2872.561523
+<17:30:25> Pre-caching render meshes for camera position
+<17:30:25> Updating level streaming priorities for 1 cameras (LevelFrameId = 13831)
+<17:30:25> -- -581.688049 129.107788 -2893.730225
+<17:30:25> Pre-caching render meshes for camera position
+<17:30:25> Updating level streaming priorities for 1 cameras (LevelFrameId = 13832)
+<17:30:25> -- -580.840942 127.879166 -2914.765381
+<17:30:25> Pre-caching render meshes for camera position
+<17:30:25> Updating level streaming priorities for 1 cameras (LevelFrameId = 13833)
+<17:30:25> -- -580.007263 126.645439 -2935.761963
+<17:30:25> Pre-caching render meshes for camera position
+<17:30:25> Updating level streaming priorities for 1 cameras (LevelFrameId = 13834)
+<17:30:25> -- -579.180847 125.417664 -2956.632080
+<17:30:25> Pre-caching render meshes for camera position
+<17:30:25> Updating level streaming priorities for 1 cameras (LevelFrameId = 13835)
+<17:30:25> -- -579.180847 125.417671 -2956.632080
+<17:30:25> general.undo
+<17:30:25> Undo (Undo:81,Redo:1)
+<17:30:25> Returned: 
+<17:30:26> general.undo
+<17:30:26> Undo (Undo:80,Redo:2)
+<17:30:26> Returned: 
+<17:30:26> general.undo
+<17:30:26> Undo (Undo:79,Redo:3)
+<17:30:26> Returned: 
+<17:30:26> general.undo
+<17:30:26> Undo (Undo:78,Redo:4)
+<17:30:26> Returned: 
+<17:30:26> general.undo
+<17:30:26> Undo (Undo:77,Redo:5)
+<17:30:26> Returned: 
+<17:30:26> general.undo
+<17:30:26> Undo (Undo:76,Redo:6)
+<17:30:26> Returned: 
+<17:30:27> general.undo
+<17:30:27> Undo (Undo:75,Redo:7)
+<17:30:27> Returned: 
+<17:30:27> general.undo
+<17:30:27> Undo (Undo:74,Redo:8)
+<17:30:27> Returned: 
+<17:30:27> general.undo
+<17:30:27> Undo (Undo:73,Redo:9)
+<17:30:27> Returned: 
+<17:30:27> general.undo
+<17:30:27> Undo (Undo:72,Redo:10)
+<17:30:27> Returned: 
+<17:30:28> general.undo
+<17:30:28> Undo (Undo:71,Redo:11)
+<17:30:28> Returned: 
+<17:30:28> general.undo
+<17:30:28> Undo (Undo:70,Redo:12)
+<17:30:28> Returned: 
+<17:30:28> general.undo
+<17:30:28> Undo (Undo:69,Redo:13)
+<17:30:28> Returned: 
+<17:30:28> general.undo
+<17:30:28> Undo (Undo:68,Redo:14)
+<17:30:28> Returned: 
+<17:30:28> general.undo
+<17:30:28> Undo (Undo:67,Redo:15)
+<17:30:28> Returned: 
+<17:30:32> general.open
+<17:30:37> Opening document Assets/Levels/Aula_Side/Aula_Side.cry
+<17:30:37> SetGlobalState 13->1 'RUNNING'->'LEVEL_LOAD_PREPARE' 2056.0 seconds
+<17:30:37> CAIManager: navigation world monitor state: Started -> StartedAndPaused
+<17:30:37> CDefaultSkeleton Release: objects/characters/samplecharacter/skelproxy.chr
+<17:30:38> Ending game context...
+<17:30:38> Destroying CActionGame instance 0000022CCB0C6DA0 (level="")
+<17:30:38> Loading from Assets/Levels/Aula_Side/Aula_Side.cry...
+<17:30:38> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
+<17:30:38> Loading missions...
+<17:30:38> ---- Start: Load Terrain
+<17:30:38> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
+<17:30:38> allocating editor height map (1024x1024)*4
+<17:30:38> ---- Start: Loading Surface Types
+<17:30:38> ---- End: Loading Surface Types (0 seconds)
+<17:30:38> ---- Start: Loading Terrain Layers Info
+<17:30:38> Loading layer settings...
+<17:30:38> Loading layer texture (engineassets/textures/grey.dds)...
+<17:30:38>   loaded editor layer 0  name='Default' LayerID=0
+<17:30:38> ---- End: Loading Terrain Layers Info (0 seconds)
+<17:30:38> ---- Start: Load Terrain
+<17:30:38> Constructing 1365 terrain nodes (0.5 MB) <17:30:38>  done in 0.00 sec
+<17:30:38> ===== Loading 0 vegetation models =====
+<17:30:38> ===== Loading 3 brush models ===== 
+<17:30:38> ===== Initializing terrain nodes ===== 
+<17:30:38> ===== Loading outdoor instances ===== 
+<17:30:38> ---- End: Load Terrain (0 seconds)
+<17:30:38> ---- Start: Process RGB Terrain Layers
+<17:30:38> ---- End: Process RGB Terrain Layers (0 seconds)
+<17:30:38> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
+<17:30:38> Loading terrain layers for segment 0 ...
+<17:30:39> ---- End: Load Terrain (0 seconds)
+<17:30:39> ---- Start: Game Engine level load
+<17:30:39> Loading map 'assets/levels/aula_side' into engine...
+<17:30:39> ===== Loading Particle Effects =====
+<17:30:39> ---- End: Game Engine level load (0 seconds)
+<17:30:39> ---- Start: Load MaterialManager
+<17:30:39> ---- End: Load MaterialManager (0 seconds)
+<17:30:39> ---- Start: Load Particles
+<17:30:39> ---- End: Load Particles (0 seconds)
+<17:30:39> ---- Start: Load Flares
+<17:30:39> ---- End: Load Flares (0 seconds)
+<17:30:39> ---- Start: Load GameTokens
+<17:30:39> ---- End: Load GameTokens (0 seconds)
+<17:30:39> Loading View settings...
+<17:30:39> ---- Start: Load Vegetation
+<17:30:39> Loading Vegetation Map...
+<17:30:39> ---- End: Load Vegetation (0 seconds)
+<17:30:39> ---- Start: Reposition Vegetation
+<17:30:39> ---- End: Reposition Vegetation (0 seconds)
+<17:30:39> ---- Start: Updating Surface Types
+<17:30:39> Loading terrain layers for segment 0 ...
+<17:30:39> ---- End: Updating Surface Types (0 seconds)
+<17:30:39> Loading Fog settings...
+<17:30:39> ---- Start: Load Entity Archetypes Database
+<17:30:39> ---- Start: Load Prefabs Database
+<17:30:39> ---- End: Load Prefabs Database (0 seconds)
+<17:30:39> ---- Start: Activating Mission Mission0
+<17:30:39> Loading AI data assets/levels/aula_side, Mission0
+<17:30:39> Finished Loading AI data in  0.001 secs
+<17:30:39> ---- End: Activating Mission Mission0 (0 seconds)
+<17:30:39> ---- Start: Load Level Shader Cache
+<17:30:39> ---- End: Load Level Shader Cache (0 seconds)
+<17:30:39> ---- Start: Post Load
+<17:30:39> ---- End: Post Load (0 seconds)
+<17:30:39> [LevelLoadTime] Level assets/levels/aula_side loaded in 0 seconds
+<17:30:39> ---- End: Load Entity Archetypes Database (0 seconds)
+<17:30:39> SetGlobalState 1->9 'LEVEL_LOAD_PREPARE'->'LEVEL_LOAD_TEXTURES' 1.4 seconds
+<17:30:39> -- Presort shaders by states...
+<17:30:39> --- 24 Resources, 1 Resource groups.
+<17:30:39> Requesting textures precache ...
+<17:30:39> -- Precaching textures...
+<17:30:39> Precaching progress: 1
+<17:30:39> Precaching progress: 2
+<17:30:39> Precaching progress: 4
+<17:30:39> Precaching progress: 5
+<17:30:39> Precaching progress: 7
+<17:30:39> Precaching progress: 8
+<17:30:39> Precaching textures done in 0.01 seconds
+<17:30:39> Textures precache done.
+<17:30:39> SetGlobalState 9->10 'LEVEL_LOAD_TEXTURES'->'LEVEL_LOAD_END' 0.0 seconds
+<17:30:39> File access time during level loading: 0.04 seconds
+<17:30:39> CAIManager: navigation world monitor state: StartedAndPaused -> StartedPausedAndResumePending
+<17:30:39> SetGlobalState 10->13 'LEVEL_LOAD_END'->'RUNNING' 0.0 seconds
+<17:30:39> -----------------------------------------------------------
+<17:30:39> Successfully opened document Assets/Levels/Aula_Side/
+<17:30:39> Level loading time: 1.47 seconds
+<17:30:39> -----------------------------------------------------------
+<17:30:39> Returned: 
+<17:30:39> CAIManager: navigation world monitor state: StartedPausedAndResumePending -> Stopped
+<17:30:39> CAIManager: navigation world monitor state: Stopped -> Started
+<17:30:39> Opening terrain\cover.ctc ...
+<17:30:39>   TerrainLayer 0: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<17:30:39>   TerrainLayer 1: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<17:30:39>   RGB multiplier: 8, Texture indices: 21
+<17:31:34> Terrain Hole: 
+<17:31:34> general.undo
+<17:31:35> Undo (Undo:0,Redo:1)
+<17:31:35> Returned: 
+<17:31:35> general.undo
+<17:31:35> Undo (Undo:0,Redo:1)
+<17:31:35> Returned: 
+<17:31:35> general.undo
+<17:31:35> Undo (Undo:0,Redo:1)
+<17:31:35> Returned: 
+<17:31:49> Terrain Modify: 
+<17:31:59> Terrain Modify: 
+<17:32:00> Terrain Modify: 
+<17:32:02> Terrain Modify: 
+<17:32:04> Terrain Modify: 
+<17:32:14> Terrain Modify: 
+<17:32:17> general.save
+<17:32:17> Saving to Assets/Levels/Aula_Side/Aula_Side.cry...
+<17:32:17> Storing View settings...
+<17:32:17> Storing Fog settings...
+<17:32:17> Storing missions...<17:32:17> Done
+<17:32:17> 0 shader combination loaded for level Assets/Levels/Aula_Side
+<17:32:17> Saving pak file assets\levels\aula_side\aula_side.tmp
+<17:32:17> Storing surface types...
+<17:32:17> Storing layer settings...
+<17:32:17> Saving Vegetation Map...
+<17:32:17> Level successfully saved
+<17:32:17> Returned: 
+<17:32:18> Ending game context...
+<17:32:18> Destroying CActionGame instance 0000022CF45F3630 (level="")
+<17:32:18> CSystem::Quit invoked from thread 5676 (main is 5676)
+<17:32:20> BaseInput - Shutting down all force feedback
+<17:32:20> ActionGame - Shutting down all force feedback
+<17:32:20> Flushing pended shaders...
+<17:32:20> Finished flushing pended shaders...
+<17:32:20> System:Quit
