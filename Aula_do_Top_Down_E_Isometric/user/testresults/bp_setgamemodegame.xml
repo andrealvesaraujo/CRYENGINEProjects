@@ -1,0 +1,272 @@
+<root>
+	<thread name="Main" totalTimeMS="31.242258" startTime="325567388388" stopTime="325567455355" totalBlocks="134"> 
+		<block name="CGameEngine::SetGameMode" totalTimeMS="31.156416" startTime="325567388571" stopTime="325567455354" args=""> 
+			<block name="CCryAction::OnEditorSetGameMode" totalTimeMS="0.893409" startTime="325567405165" stopTime="325567407080" args=""> 
+				<block name="CActionGame::OnEditorSetGameMode" totalTimeMS="0.697932" startTime="325567405169" stopTime="325567406665" args=""> 
+					<block name="CFlashUI::Reload" totalTimeMS="0.141359" startTime="325567406238" stopTime="325567406541" args=""> 
+						<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.004199" startTime="325567406452" stopTime="325567406461" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CMaterialEffects::PreLoadAssets" totalTimeMS="0.005132" startTime="325567406680" stopTime="325567406691" args=""> 
+				</block>
+				<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.000933" startTime="325567407066" stopTime="325567407068" args=""> 
+				</block>
+			</block>
+			<block name="CAISystem::Reset" totalTimeMS="4.816478" startTime="325567416248" stopTime="325567426572" args=""> 
+				<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="1.807812" startTime="325567416358" stopTime="325567420233" args="EngineAssets/CodeCoverage/pbar.dds"> 
+					<block name="CTexture::LoadFromImage" totalTimeMS="1.805946" startTime="325567416360" stopTime="325567420231" args="EngineAssets/CodeCoverage/pbar.dds"> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.169351" startTime="325567417006" stopTime="325567417369" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.060183" startTime="325567417204" stopTime="325567417333" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.201542" startTime="325567417370" stopTime="325567417802" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.054584" startTime="325567417582" stopTime="325567417699" args=""> 
+							</block>
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.043387" startTime="325567417708" stopTime="325567417801" args=""> 
+							</block>
+						</block>
+						<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.228601" startTime="325567417822" stopTime="325567418312" args=""> 
+							<block name="CImageDDSFile::Load" totalTimeMS="0.224868" startTime="325567417823" stopTime="325567418305" args=""> 
+								<block name="CCryPak::FOpen" totalTimeMS="0.146958" startTime="325567417838" stopTime="325567418153" args=""> 
+									<block name="CIOWrapper::FopenEx" totalTimeMS="0.043387" startTime="325567418042" stopTime="325567418135" args=""> 
+									</block>
+								</block>
+								<block name="CImageDDSFile::LoadFromFile" totalTimeMS="0.067181" startTime="325567418155" stopTime="325567418299" args=""> 
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.048053" startTime="325567418163" stopTime="325567418266" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.047120" startTime="325567418164" stopTime="325567418265" args=""> 
+											<block name="ZipDir::ZipRawUncompress" totalTimeMS="0.018195" startTime="325567418221" stopTime="325567418260" args=""> 
+											</block>
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.003732" startTime="325567418266" stopTime="325567418274" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000000" startTime="325567418274" stopTime="325567418274" args=""> 
+										</block>
+									</block>
+									<block name="CImageDDSFile::SetHeaderFromMemory" totalTimeMS="0.002333" startTime="325567418276" stopTime="325567418281" args=""> 
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000467" startTime="325567418297" stopTime="325567418298" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000467" startTime="325567418297" stopTime="325567418298" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.151156" startTime="325567418753" stopTime="325567419077" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.048986" startTime="325567418952" stopTime="325567419057" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.171217" startTime="325567419078" stopTime="325567419445" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.044321" startTime="325567419257" stopTime="325567419352" args=""> 
+							</block>
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.039189" startTime="325567419359" stopTime="325567419443" args=""> 
+							</block>
+						</block>
+						<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.187546" startTime="325567419460" stopTime="325567419862" args=""> 
+							<block name="CImageDDSFile::Load" totalTimeMS="0.185213" startTime="325567419460" stopTime="325567419857" args=""> 
+								<block name="CCryPak::FOpen" totalTimeMS="0.137160" startTime="325567419471" stopTime="325567419765" args=""> 
+									<block name="CIOWrapper::FopenEx" totalTimeMS="0.038256" startTime="325567419663" stopTime="325567419745" args=""> 
+									</block>
+								</block>
+								<block name="CImageDDSFile::LoadFromFile" totalTimeMS="0.040122" startTime="325567419766" stopTime="325567419852" args=""> 
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.028925" startTime="325567419769" stopTime="325567419831" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.028925" startTime="325567419769" stopTime="325567419831" args=""> 
+											<block name="ZipDir::ZipRawUncompress" totalTimeMS="0.017728" startTime="325567419788" stopTime="325567419826" args=""> 
+											</block>
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000467" startTime="325567419832" stopTime="325567419833" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000467" startTime="325567419832" stopTime="325567419833" args=""> 
+										</block>
+									</block>
+									<block name="CImageDDSFile::SetHeaderFromMemory" totalTimeMS="0.002333" startTime="325567419834" stopTime="325567419839" args=""> 
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000467" startTime="325567419850" stopTime="325567419851" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000467" startTime="325567419850" stopTime="325567419851" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="CTexture::Load(CImageFile* pImage)" totalTimeMS="0.168418" startTime="325567419864" stopTime="325567420225" args="engineassets/codecoverage/pbar.dds"> 
+						</block>
+					</block>
+				</block>
+				<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="1.435053" startTime="325567420268" stopTime="325567423344" args="EngineAssets/CodeCoverage/hit.dds"> 
+					<block name="CTexture::LoadFromImage" totalTimeMS="1.432254" startTime="325567420273" stopTime="325567423343" args="EngineAssets/CodeCoverage/hit.dds"> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.149757" startTime="325567420759" stopTime="325567421080" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.051785" startTime="325567420944" stopTime="325567421055" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.183347" startTime="325567421081" stopTime="325567421474" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.050852" startTime="325567421266" stopTime="325567421375" args=""> 
+							</block>
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.041521" startTime="325567421383" stopTime="325567421472" args=""> 
+							</block>
+						</block>
+						<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.197810" startTime="325567421492" stopTime="325567421916" args=""> 
+							<block name="CImageDDSFile::Load" totalTimeMS="0.193144" startTime="325567421493" stopTime="325567421907" args=""> 
+								<block name="CCryPak::FOpen" totalTimeMS="0.111968" startTime="325567421507" stopTime="325567421747" args=""> 
+									<block name="CIOWrapper::FopenEx" totalTimeMS="0.027992" startTime="325567421674" stopTime="325567421734" args=""> 
+									</block>
+								</block>
+								<block name="CImageDDSFile::LoadFromFile" totalTimeMS="0.071846" startTime="325567421748" stopTime="325567421902" args=""> 
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.055517" startTime="325567421751" stopTime="325567421870" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.053185" startTime="325567421756" stopTime="325567421870" args=""> 
+											<block name="ZipDir::ZipRawUncompress" totalTimeMS="0.027059" startTime="325567421805" stopTime="325567421863" args=""> 
+											</block>
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000000" startTime="325567421871" stopTime="325567421871" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000000" startTime="325567421871" stopTime="325567421871" args=""> 
+										</block>
+									</block>
+									<block name="CImageDDSFile::SetHeaderFromMemory" totalTimeMS="0.001866" startTime="325567421873" stopTime="325567421877" args=""> 
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000000" startTime="325567421896" stopTime="325567421896" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000000" startTime="325567421896" stopTime="325567421896" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000000" startTime="325567421897" stopTime="325567421897" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000000" startTime="325567421897" stopTime="325567421897" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.001400" startTime="325567421898" stopTime="325567421901" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.001400" startTime="325567421898" stopTime="325567421901" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000467" startTime="325567421901" stopTime="325567421902" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000000" startTime="325567421902" stopTime="325567421902" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.086308" startTime="325567422227" stopTime="325567422412" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.027525" startTime="325567422342" stopTime="325567422401" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.118499" startTime="325567422413" stopTime="325567422667" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.027992" startTime="325567422545" stopTime="325567422605" args=""> 
+							</block>
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.026126" startTime="325567422610" stopTime="325567422666" args=""> 
+							</block>
+						</block>
+						<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.146025" startTime="325567422675" stopTime="325567422988" args=""> 
+							<block name="CImageDDSFile::Load" totalTimeMS="0.144158" startTime="325567422675" stopTime="325567422984" args=""> 
+								<block name="CCryPak::FOpen" totalTimeMS="0.088175" startTime="325567422681" stopTime="325567422870" args=""> 
+									<block name="CIOWrapper::FopenEx" totalTimeMS="0.025193" startTime="325567422807" stopTime="325567422861" args=""> 
+									</block>
+								</block>
+								<block name="CImageDDSFile::LoadFromFile" totalTimeMS="0.050852" startTime="325567422871" stopTime="325567422980" args=""> 
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.039655" startTime="325567422877" stopTime="325567422962" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.039655" startTime="325567422877" stopTime="325567422962" args=""> 
+											<block name="ZipDir::ZipRawUncompress" totalTimeMS="0.023327" startTime="325567422905" stopTime="325567422955" args=""> 
+											</block>
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.001400" startTime="325567422962" stopTime="325567422965" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000467" startTime="325567422964" stopTime="325567422965" args=""> 
+										</block>
+									</block>
+									<block name="CImageDDSFile::SetHeaderFromMemory" totalTimeMS="0.001400" startTime="325567422965" stopTime="325567422968" args=""> 
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000467" startTime="325567422974" stopTime="325567422975" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000467" startTime="325567422974" stopTime="325567422975" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000000" startTime="325567422975" stopTime="325567422975" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000000" startTime="325567422975" stopTime="325567422975" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.001400" startTime="325567422976" stopTime="325567422979" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.001400" startTime="325567422976" stopTime="325567422979" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000467" startTime="325567422979" stopTime="325567422980" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000000" startTime="325567422979" stopTime="325567422979" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="CTexture::Load(CImageFile* pImage)" totalTimeMS="0.162353" startTime="325567422989" stopTime="325567423337" args="engineassets/codecoverage/hit.dds"> 
+						</block>
+					</block>
+				</block>
+				<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="1.205986" startTime="325567423377" stopTime="325567425962" args="EngineAssets/CodeCoverage/unexpected.dds"> 
+					<block name="CTexture::LoadFromImage" totalTimeMS="1.204586" startTime="325567423379" stopTime="325567425961" args="EngineAssets/CodeCoverage/unexpected.dds"> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.157221" startTime="325567423832" stopTime="325567424169" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.058783" startTime="325567424011" stopTime="325567424137" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.213672" startTime="325567424170" stopTime="325567424628" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.051785" startTime="325567424397" stopTime="325567424508" args=""> 
+							</block>
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.049919" startTime="325567424518" stopTime="325567424625" args=""> 
+							</block>
+						</block>
+						<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.226735" startTime="325567424660" stopTime="325567425146" args=""> 
+							<block name="CImageDDSFile::Load" totalTimeMS="0.223002" startTime="325567424661" stopTime="325567425139" args=""> 
+								<block name="CCryPak::FOpen" totalTimeMS="0.146958" startTime="325567424683" stopTime="325567424998" args=""> 
+									<block name="CIOWrapper::FopenEx" totalTimeMS="0.043854" startTime="325567424884" stopTime="325567424978" args=""> 
+									</block>
+								</block>
+								<block name="CImageDDSFile::LoadFromFile" totalTimeMS="0.061116" startTime="325567425000" stopTime="325567425131" args=""> 
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.040588" startTime="325567425003" stopTime="325567425090" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.040588" startTime="325567425003" stopTime="325567425090" args=""> 
+											<block name="ZipDir::ZipRawUncompress" totalTimeMS="0.014462" startTime="325567425053" stopTime="325567425084" args=""> 
+											</block>
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000467" startTime="325567425091" stopTime="325567425092" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000467" startTime="325567425091" stopTime="325567425092" args=""> 
+										</block>
+									</block>
+									<block name="CImageDDSFile::SetHeaderFromMemory" totalTimeMS="0.002799" startTime="325567425100" stopTime="325567425106" args=""> 
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000467" startTime="325567425121" stopTime="325567425122" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000467" startTime="325567425121" stopTime="325567425122" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.002799" startTime="325567425123" stopTime="325567425129" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000467" startTime="325567425128" stopTime="325567425129" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.000467" startTime="325567425129" stopTime="325567425130" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.000000" startTime="325567425130" stopTime="325567425130" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="CTexture::StreamPrepare_Finalise" totalTimeMS="0.167485" startTime="325567425600" stopTime="325567425959" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="CEntitySystem::SpawnEntity" totalTimeMS="0.066248" startTime="325567427078" stopTime="325567427220" args="Rifle"> 
+			</block>
+			<block name="CEntitySystem::SpawnEntity" totalTimeMS="0.004199" startTime="325567427233" stopTime="325567427242" args="Default"> 
+			</block>
+			<block name="CObjManager::LoadStatObj" totalTimeMS="1.463045" startTime="325567427253" stopTime="325567430389" args="Objects/Default/primitive_sphere.cgf"> 
+				<block name="CCryPak::FOpen" totalTimeMS="0.292516" startTime="325567427863" stopTime="325567428490" args=""> 
+					<block name="CIOWrapper::FopenEx" totalTimeMS="0.177749" startTime="325567428095" stopTime="325567428476" args=""> 
+					</block>
+				</block>
+				<block name="CCryPak::FGetCachedFileData" totalTimeMS="0.090507" startTime="325567428493" stopTime="325567428687" args=""> 
+				</block>
+				<block name="CSystem::SynchronousLoadingTick" totalTimeMS="0.000000" startTime="325567428712" stopTime="325567428712" args=""> 
+				</block>
+				<block name="CSystem::SynchronousLoadingTick" totalTimeMS="0.002799" startTime="325567428986" stopTime="325567428992" args=""> 
+				</block>
+				<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000467" startTime="325567429698" stopTime="325567429699" args=""> 
+				</block>
+				<block name="Cry3DEngineBase::IsValidFile" totalTimeMS="0.188479" startTime="325567429970" stopTime="325567430374" args=""> 
+				</block>
+			</block>
+			<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.000467" startTime="325567455330" stopTime="325567455331" args=""> 
+			</block>
+		</block>
+	</thread>
+</root>

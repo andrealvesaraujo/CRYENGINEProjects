@@ -1,0 +1,38 @@
+<root>
+	<thread name="Main" totalTimeMS="16.258646" startTime="325578183449" stopTime="325578218299" totalBlocks="17"> 
+		<block name="CGameEngine::SetGameMode" totalTimeMS="16.103291" startTime="325578183781" stopTime="325578218298" args=""> 
+			<block name="CAISystem::Reset" totalTimeMS="4.978831" startTime="325578192517" stopTime="325578203189" args=""> 
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="3.375360" startTime="325578195178" stopTime="325578202413" args="Scripts/AI/Factions.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="3.350634" startTime="325578195219" stopTime="325578202401" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="1.623532" startTime="325578195239" stopTime="325578198719" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.864951" startTime="325578196798" stopTime="325578198652" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FReadRaw" totalTimeMS="0.220670" startTime="325578199045" stopTime="325578199518" args=""> 
+						</block>
+						<block name="XMLBinaryReader::Parse" totalTimeMS="0.012596" startTime="325578202030" stopTime="325578202057" args=""> 
+						</block>
+						<block name="CSystem::SynchronousLoadingTick" totalTimeMS="0.000467" startTime="325578202395" stopTime="325578202396" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="CCryAction::OnEditorSetGameMode" totalTimeMS="0.711462" startTime="325578214034" stopTime="325578215559" args=""> 
+				<block name="CActionGame::OnEditorSetGameMode" totalTimeMS="0.595295" startTime="325578214037" stopTime="325578215313" args=""> 
+					<block name="CFlashUI::Reload" totalTimeMS="0.123164" startTime="325578214985" stopTime="325578215249" args=""> 
+						<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.004199" startTime="325578215186" stopTime="325578215195" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.000933" startTime="325578215539" stopTime="325578215541" args=""> 
+				</block>
+			</block>
+			<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.001400" startTime="325578218084" stopTime="325578218087" args=""> 
+			</block>
+			<block name="CStatObj::SetRenderMesh" totalTimeMS="0.003732" startTime="325578218200" stopTime="325578218208" args=""> 
+			</block>
+			<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000933" startTime="325578218266" stopTime="325578218268" args=""> 
+			</block>
+		</block>
+	</thread>
+</root>

@@ -1,0 +1,12 @@
+<cryasset>
+ <AssetMetadata version="0" type="Animation" guid="{44D4D458-812F-8F8C-AD40-2E4572FC3403}" source="idle_to_jog_3p.i_caf">
+  <Files>
+   <File path="idle_to_jog_3p.caf"/>
+  </Files>
+  <Details>
+   <Detail name="materialCount">0</Detail>
+   <Detail name="triangleCount">0</Detail>
+   <Detail name="vertexCount">0</Detail>
+  </Details>
+ </AssetMetadata>
+</cryasset>

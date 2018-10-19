@@ -1,0 +1,12 @@
+<cryasset>
+ <AssetMetadata version="0" type="Animation" guid="{D43006A0-208F-7893-8475-9843E5A343BD}" source="riflewalkaim_fwd_3p.i_caf">
+  <Files>
+   <File path="riflewalkaim_fwd_3p.caf"/>
+  </Files>
+  <Details>
+   <Detail name="materialCount">0</Detail>
+   <Detail name="triangleCount">0</Detail>
+   <Detail name="vertexCount">0</Detail>
+  </Details>
+ </AssetMetadata>
+</cryasset>

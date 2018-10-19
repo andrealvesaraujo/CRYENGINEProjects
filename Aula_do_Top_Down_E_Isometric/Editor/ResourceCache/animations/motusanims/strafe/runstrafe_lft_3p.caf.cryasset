@@ -1,0 +1,12 @@
+<cryasset>
+ <AssetMetadata version="0" type="Animation" guid="{9488EFF9-16C5-DE4A-6234-B0382E29EB44}" source="runstrafe_lft_3p.i_caf">
+  <Files>
+   <File path="runstrafe_lft_3p.caf"/>
+  </Files>
+  <Details>
+   <Detail name="materialCount">0</Detail>
+   <Detail name="triangleCount">0</Detail>
+   <Detail name="vertexCount">0</Detail>
+  </Details>
+ </AssetMetadata>
+</cryasset>

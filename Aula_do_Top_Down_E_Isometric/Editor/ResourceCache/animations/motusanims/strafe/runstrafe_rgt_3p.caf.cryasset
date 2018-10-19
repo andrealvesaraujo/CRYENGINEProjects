@@ -1,0 +1,12 @@
+<cryasset>
+ <AssetMetadata version="0" type="Animation" guid="{AC557D63-B746-F647-2233-A7ED14EE3C03}" source="runstrafe_rgt_3p.i_caf">
+  <Files>
+   <File path="runstrafe_rgt_3p.caf"/>
+  </Files>
+  <Details>
+   <Detail name="materialCount">0</Detail>
+   <Detail name="triangleCount">0</Detail>
+   <Detail name="vertexCount">0</Detail>
+  </Details>
+ </AssetMetadata>
+</cryasset>
