@@ -1,0 +1,12 @@
+<cryasset>
+ <AssetMetadata version="0" type="Animation" guid="{B90ED994-6659-B4CF-D588-FF602C0817C4}" source="steprifleaimrotate_lft_90_3p.i_caf">
+  <Files>
+   <File path="steprifleaimrotate_lft_90_3p.caf"/>
+  </Files>
+  <Details>
+   <Detail name="materialCount">0</Detail>
+   <Detail name="triangleCount">0</Detail>
+   <Detail name="vertexCount">0</Detail>
+  </Details>
+ </AssetMetadata>
+</cryasset>

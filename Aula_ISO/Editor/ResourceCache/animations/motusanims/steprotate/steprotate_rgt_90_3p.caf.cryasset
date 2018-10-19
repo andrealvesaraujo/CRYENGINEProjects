@@ -1,0 +1,12 @@
+<cryasset>
+ <AssetMetadata version="0" type="Animation" guid="{3F480DC0-1DC2-E48E-4176-682DEBCB9DE4}" source="steprotate_rgt_90_3p.i_caf">
+  <Files>
+   <File path="steprotate_rgt_90_3p.caf"/>
+  </Files>
+  <Details>
+   <Detail name="materialCount">0</Detail>
+   <Detail name="triangleCount">0</Detail>
+   <Detail name="vertexCount">0</Detail>
+  </Details>
+ </AssetMetadata>
+</cryasset>

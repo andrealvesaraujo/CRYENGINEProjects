@@ -1,0 +1,6 @@
+<download name="Iso" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="667903" md5="12f91fd4a3083274e867421e7e1d5203"/>
+ </files>
+</download>
