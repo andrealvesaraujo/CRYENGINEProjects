@@ -1,0 +1,12 @@
+<cryasset>
+ <AssetMetadata version="0" type="Animation" guid="{0B6806AB-260D-8EE4-C359-A5CFEABC7F19}" source="walkcrossrifleaim_bck_rgt_3p.i_caf">
+  <Files>
+   <File path="walkcrossrifleaim_bck_rgt_3p.caf"/>
+  </Files>
+  <Details>
+   <Detail name="materialCount">0</Detail>
+   <Detail name="triangleCount">0</Detail>
+   <Detail name="vertexCount">0</Detail>
+  </Details>
+ </AssetMetadata>
+</cryasset>

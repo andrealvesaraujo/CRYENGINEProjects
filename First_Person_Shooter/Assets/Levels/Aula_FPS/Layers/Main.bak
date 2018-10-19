@@ -1,0 +1,119 @@
+<ObjectLayer>
+ <Layer Name="Main" FullName="Main" GUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Hidden="0" Frozen="0" Expanded="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="GeomEntity" Layer="Main" LayerGUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Id="{18E2D6DF-50CF-B46B-9441-7373FA2D4B2D}" Name="primitive_cube5" Pos="490,532,31.498241" FloorNumber="-1" Rotate="1,0,0,0" Scale="1,1,3.2497964" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{54B2C130-8E27-4E07-8BF0-F1FE89228D14}">
+      <Geometry value="Objects/Default/primitive_cube.cgf"/>
+      <Physicalize value="ePhysicalizationType_Static"/>
+      <ReceiveCollisionEvents value="false"/>
+      <Mass value="1"/>
+      <Animation value=""/>
+      <Speed value="1"/>
+      <Loop value="true"/>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="GeomEntity" Layer="Main" LayerGUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Id="{1DDEA544-66E2-481C-464E-934E95F6A856}" Name="primitive_cube8" Pos="490,528,32" FloorNumber="-1" Rotate="0.99996191,0,0,-0.0087265354" Scale="1,1,1.2618519" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{54B2C130-8E27-4E07-8BF0-F1FE89228D14}">
+      <Geometry value="Objects/Default/primitive_cube.cgf"/>
+      <Physicalize value="ePhysicalizationType_Static"/>
+      <ReceiveCollisionEvents value="false"/>
+      <Mass value="1"/>
+      <Animation value=""/>
+      <Speed value="1"/>
+      <Loop value="true"/>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Id="{3252585E-79B8-CE0F-2B6F-0F55F04BB97A}" Name="primitive_cube3" Pos="525,543.24115,35.866589" FloorNumber="-1" Rotate="0.68832886,0.7253989,0,0" Scale="11.300613,3.5914042,1.6391011" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/Default/primitive_cube.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="GeomEntity" Layer="Main" LayerGUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Id="{59ACCACE-9AB6-91C4-A304-4C3A18A5CC21}" Name="primitive_cube6" Pos="490,526,32" FloorNumber="-1" Rotate="1,0,0,0" Scale="1,1,1.0995567" ColorRGB="65535" MatLayersMask="0" Geometry="" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{54B2C130-8E27-4E07-8BF0-F1FE89228D14}">
+      <Geometry value="Objects/Default/primitive_cube.cgf"/>
+      <Physicalize value="ePhysicalizationType_Static"/>
+      <ReceiveCollisionEvents value="false"/>
+      <Mass value="1"/>
+      <Animation value=""/>
+      <Speed value="1"/>
+      <Loop value="true"/>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Id="{76D158A2-93ED-17D5-F0FF-8A01246AA2A4}" Name="primitive_sphere1" Pos="510,515,48" FloorNumber="-1" Rotate="1,0,0,0" Scale="1,7.8742537,4.4041972" ColorRGB="15335234" MatLayersMask="0" Prefab="Objects/Default/primitive_sphere.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Id="{9577BD22-9D5E-D0A1-2C03-5DB934C95AA3}" Name="primitive_cylinder1" Pos="505,524,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/Default/primitive_cylinder.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="GeomEntity" Layer="Main" LayerGUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Id="{9D1FE2DA-479C-4320-9D09-40BAF09F52A8}" Name="primitive_cube9" Pos="537,533,32" FloorNumber="-1" Rotate="1,0,0,0" Scale="0.94784367,15.390294,3.8799999" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{54B2C130-8E27-4E07-8BF0-F1FE89228D14}">
+      <Geometry value="Objects/Default/primitive_cube.cgf"/>
+      <Physicalize value="ePhysicalizationType_Static"/>
+      <ReceiveCollisionEvents value="false"/>
+      <Mass value="1"/>
+      <Animation value=""/>
+      <Speed value="1"/>
+      <Loop value="true"/>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Id="{AC9776DA-2953-CD10-A9C9-F691AEB06BCE}" Name="primitive_cube2" Pos="500,537.49109,39.983414" FloorNumber="-1" Rotate="1,0,0,0" Scale="0.48340505,4.64709,0.48340505" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/Default/primitive_cube.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Id="{BC4B84F1-D9FF-B153-1BA0-60A43E9D9EF1}" Name="primitive_cube1" Pos="501,538,32" FloorNumber="-1" Rotate="1,0,0,0" Scale="12.416589,5.1593051,3.9394829" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/Default/primitive_cube.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="GeomEntity" Layer="Main" LayerGUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Id="{D0B99FF9-0454-B909-CC5B-E72C734CB4A8}" Name="firstperson1" Pos="509,540,40" FloorNumber="-1" Rotate="0.7138465,0,0,0.70030218" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{54B2C130-8E27-4E07-8BF0-F1FE89228D14}">
+      <Geometry value="Objects/Characters/SampleCharacter/firstperson.cdf"/>
+      <Physicalize value="ePhysicalizationType_Static"/>
+      <ReceiveCollisionEvents value="false"/>
+      <Mass value="1"/>
+      <Animation value=""/>
+      <Speed value="1"/>
+      <Loop value="true"/>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="GeomEntity" Layer="Main" LayerGUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Id="{DC772A77-C38F-5AA9-137B-BEF796AFB1EC}" Name="primitive_cube4" Pos="512,514,32" FloorNumber="-1" Rotate="1,0,0,0" Scale="27.189159,3.7571998,5.3728981" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{54B2C130-8E27-4E07-8BF0-F1FE89228D14}">
+      <Geometry value="Objects/Default/primitive_cube.cgf"/>
+      <Physicalize value="ePhysicalizationType_Static"/>
+      <ReceiveCollisionEvents value="false"/>
+      <Mass value="1"/>
+      <Animation value=""/>
+      <Speed value="1"/>
+      <Loop value="true"/>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="GeomEntity" Layer="Main" LayerGUID="{2329F2C6-D700-C7E7-F352-B08C2CFE17EE}" Id="{F8EC273B-D2C0-6E3B-F678-25A4701D161D}" Name="primitive_cube7" Pos="490,530,32" FloorNumber="-1" Rotate="1,0,0,0" Scale="1,1,2.3029037" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{54B2C130-8E27-4E07-8BF0-F1FE89228D14}">
+      <Geometry value="Objects/Default/primitive_cube.cgf"/>
+      <Physicalize value="ePhysicalizationType_Static"/>
+      <ReceiveCollisionEvents value="false"/>
+      <Mass value="1"/>
+      <Animation value=""/>
+      <Speed value="1"/>
+      <Loop value="true"/>
+     </Component>
+    </Components>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

@@ -1,0 +1,12 @@
+<cryasset>
+ <AssetMetadata version="0" type="Animation" guid="{91B8EC22-085D-27A1-4499-799F8D620F05}" source="walkstraferifleaim_lft_3p.i_caf">
+  <Files>
+   <File path="walkstraferifleaim_lft_3p.caf"/>
+  </Files>
+  <Details>
+   <Detail name="materialCount">0</Detail>
+   <Detail name="triangleCount">0</Detail>
+   <Detail name="vertexCount">0</Detail>
+  </Details>
+ </AssetMetadata>
+</cryasset>

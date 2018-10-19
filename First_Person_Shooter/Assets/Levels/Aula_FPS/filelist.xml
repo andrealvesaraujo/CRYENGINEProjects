@@ -1,0 +1,6 @@
+<download name="Aula_FPS" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="667571" md5="2c88e1155e3f9e812f8b04f367e91d98"/>
+ </files>
+</download>

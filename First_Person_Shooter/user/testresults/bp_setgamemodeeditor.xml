@@ -1,0 +1,48 @@
+<root>
+	<thread name="Main" totalTimeMS="22.057173" startTime="201910914051" stopTime="201910961330" totalBlocks="22"> 
+		<block name="CGameEngine::SetGameMode" totalTimeMS="22.007254" startTime="201910914157" stopTime="201910961329" args=""> 
+			<block name="CAISystem::Reset" totalTimeMS="4.412928" startTime="201910926386" stopTime="201910935845" args=""> 
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="2.892033" startTime="201910929197" stopTime="201910935396" args="Scripts/AI/Factions.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="2.839315" startTime="201910929306" stopTime="201910935392" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="2.140916" startTime="201910929357" stopTime="201910933946" args=""> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="1.158866" startTime="201910931391" stopTime="201910933875" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FReadRaw" totalTimeMS="0.075112" startTime="201910934111" stopTime="201910934272" args=""> 
+						</block>
+						<block name="XMLBinaryReader::Parse" totalTimeMS="0.014462" startTime="201910935148" stopTime="201910935179" args=""> 
+						</block>
+						<block name="CSystem::SynchronousLoadingTick" totalTimeMS="0.000467" startTime="201910935390" stopTime="201910935391" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="CEntity::LoadCharacter" totalTimeMS="0.956857" startTime="201910946825" stopTime="201910948876" args="Objects/Characters/SampleCharacter/firstperson.cdf"> 
+				<block name="CharacterManager::LoadCharacterDefinition" totalTimeMS="0.536978" startTime="201910946872" stopTime="201910948023" args="objects/characters/samplecharacter/firstperson.cdf"> 
+					<block name="CharacterManager::CreateSKELInstance" totalTimeMS="0.285984" startTime="201910946888" stopTime="201910947501" args=""> 
+						<block name="CCharInstance::CCharInstance" totalTimeMS="0.161420" startTime="201910947154" stopTime="201910947500" args=""> 
+						</block>
+					</block>
+					<block name="CharacterManager::LoadModelSKIN" totalTimeMS="0.009797" startTime="201910947537" stopTime="201910947558" args=""> 
+					</block>
+					<block name="CharacterManager::LoadModelSKIN" totalTimeMS="0.002799" startTime="201910947643" stopTime="201910947649" args=""> 
+					</block>
+					<block name="CObjManager::LoadStatObj" totalTimeMS="0.010730" startTime="201910947840" stopTime="201910947863" args="objects/weapons/sampleweapon/defaultweapon.cgf"> 
+					</block>
+				</block>
+			</block>
+			<block name="CCryAction::OnEditorSetGameMode" totalTimeMS="1.441584" startTime="201910951346" stopTime="201910954436" args=""> 
+				<block name="CActionGame::OnEditorSetGameMode" totalTimeMS="1.188724" startTime="201910951358" stopTime="201910953906" args=""> 
+					<block name="CFlashUI::Reload" totalTimeMS="0.234199" startTime="201910953136" stopTime="201910953638" args=""> 
+						<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.004199" startTime="201910953515" stopTime="201910953524" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.000000" startTime="201910954428" stopTime="201910954428" args=""> 
+				</block>
+			</block>
+			<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.000933" startTime="201910961271" stopTime="201910961273" args=""> 
+			</block>
+		</block>
+	</thread>
+</root>
